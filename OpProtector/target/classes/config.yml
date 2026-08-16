@@ -1,0 +1,39 @@
+# конфигурация OpProtector
+
+# конфигурация сообщений
+messages:
+  no-permission: "&4&lВам не допускается писать данную команду!"
+  listop-header: "&6&l=== Список допускаемых к /op игроков ==="
+  listop-format: "&e- &f%player%" # это формат ников игроков
+  listop-empty: "&7Список пуст"
+  listop-added: "&a&lИгрок %player% добавлен в список допускаемых!"
+  listop-removed: "&c&lИгрок %player% удален из списка допускаемых!"
+  listop-not-found: "&cИгрок %player% не найден в списке!"
+  listop-usage: "&cИспользование: /listop [add/del] [игрок]"
+
+  lop-header: "&6&l=== OpProtector Commands ==="
+  lop-commands:
+    - "&e/lop &7- показать это сообщение"
+    - "&e/lop reload &7- перезагрузить конфиг"
+  lop-reloaded: "&a&lКонфигурация перезагружена!"
+
+  op-denied: "&4&lВам не допускается писать данную команду!"
+  deop-denied: "&4&lВам не допускается писать данную команду!"
+
+  op-target-not-allowed: "&c&lИгрок %player% не находится в списке допускаемых. Сначала добавьте его через /listop add %player%"
+  deop-target-not-allowed: "&c&lИгрок %player% не находится в списке допускаемых!"
+
+  op-removed: "&c&lУ вас больше нет прав опку"
+  op-removed-admin: "&c&lъИгрок автоматически снят OP с %player%"
+
+# лист игроков (не трогать)
+allowed-players: []
+
+# ---- Only Permission ----
+# opprotector.listop.add - /listop add <ник>
+# opprotector.listop.del - /listop del <ник>
+# opprotector.lop.reload - /lop reload
+
+# ---- Permission and /op ----
+# opprotector.lop - /lop
+# opprotector.listop - /listop

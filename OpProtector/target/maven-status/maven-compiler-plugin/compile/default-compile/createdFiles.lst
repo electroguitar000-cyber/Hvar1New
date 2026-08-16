@@ -1,0 +1,7 @@
+ru\koramikon\opprotector\listeners\OpProtectionListener.class
+ru\koramikon\opprotector\commands\ListOpCommand.class
+ru\koramikon\opprotector\listeners\CommandListener.class
+ru\koramikon\opprotector\managers\ConfigManager.class
+ru\koramikon\opprotector\OpProtector.class
+ru\koramikon\opprotector\commands\LopCommand.class
+ru\koramikon\opprotector\utils\MessageUtils.class

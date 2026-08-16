@@ -1,0 +1,42 @@
+name: OpProtector
+version: 1.0.0
+main: ru.koramikon.opprotector.OpProtector
+api-version: "1.21"
+author: Koramikon
+description: Protect OP commands from unauthorized users
+
+commands:
+  listop:
+    description: Manage allowed players for /op command
+    usage: /listop [add/del] [player]
+    permission: opprotector.listop
+  lop:
+    description: OpProtector plugin commands
+    usage: /lop [reload]
+    permission: opprotector.lop
+
+permissions:
+  opprotector.admin:
+    description: All permissions for OpProtector
+    default: op
+    children:
+      opprotector.listop: true
+      opprotector.listop.add: true
+      opprotector.listop.del: true
+      opprotector.lop: true
+      opprotector.lop.reload: true
+  opprotector.listop:
+    description: Access to /listop command
+    default: op
+  opprotector.listop.add:
+    description: Add players to allowed list
+    default: op
+  opprotector.listop.del:
+    description: Remove players from allowed list
+    default: op
+  opprotector.lop:
+    description: Access to /lop command
+    default: op
+  opprotector.lop.reload:
+    description: Reload plugin configuration
+    default: op
