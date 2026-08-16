@@ -1,0 +1,33 @@
+name: HTime2
+version: '2.0'
+main: ru.dev.koramikon.wtime.WTime
+api-version: '1.21'
+author: koramikon
+description: Хоккейный таймер + штрафы + эпичный сброс лодок
+
+commands:
+  htime2:
+    description: Главная команда плагина
+    usage: /htime2 help
+    aliases: [ht2]
+  boat2:
+    description: Управление лодками
+    usage: /boat2 help
+
+permissions:
+  htime2.*:
+    description: Все права плагина
+    default: op
+    children:
+      htime2.pos: true
+      htime2.match: true
+      htime2.boat: true
+  htime2.pos:
+    description: Установка точек (pos1, pos2)
+    default: op
+  htime2.match:
+    description: Управление матчем, штрафами, перерывами
+    default: op
+  htime2.boat:
+    description: Управление лодками и сбросами
+    default: op

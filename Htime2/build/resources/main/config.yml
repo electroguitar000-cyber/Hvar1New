@@ -1,0 +1,19 @@
+# Язык плагина
+locale: "ru"
+
+# Настройки ActionBar
+actionbar:
+  timer-format:
+    period: "&#FFAA55&lПериод {period}"
+    match: "&#AAFFAA&lМАТЧ"
+    break: "&#55AAFF&lПЕРЕРЫВ"
+    paused: "&#FF5555&l[ПАУЗА]"
+
+  penalty-format:
+    admin: "&#FF5555{player} &f{reason} &d{time}"  # (не трогать! можно только поменять цвет)
+    player: "&f{reason} &d{time}" # (не трогать! можно только поменять цвет)
+
+  separator: " &8| "
+  max-penalties: 5
+  show-timer: true
+  show-pause: true

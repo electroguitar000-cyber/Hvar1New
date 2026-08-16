@@ -1,0 +1,98 @@
+# Префикс
+prefix: "&#E64C4C&l[Wᴛɪᴍᴇ] &r"
+
+# Общие
+common:
+  no-permission: "&#FF5555У ʙᴀᴄ ʜᴇт пᴘᴀʙ ʜᴀ иᴄпᴏльзᴏʙᴀʜиᴇ этᴏй ᴋᴏMᴀʜды."
+  player-only: "&#FF5555Этᴀ ᴋᴏмᴀʜдᴀ тᴏльᴋᴏ для игᴘᴏᴋᴏʙ!"
+  invalid-syntax: "&#FFAA55Hᴇʙᴇᴘʜый ᴄиʜтᴀᴋᴄиᴄ. Иᴄпᴏльзуйтᴇ: {usage}"
+  reloaded: "&#55FF55Плᴀгиʜ пᴇᴘᴇзᴀгᴘужᴇʜ!"
+
+# Точки
+pos:
+  pos1-set: "&#55FF55Pᴏs1 уᴄтᴀʜᴏʙлᴇʜᴀ!"
+  pos2-set: "&#FF5555Pᴏs2 уᴄтᴀʜᴏʙлᴇʜᴀ!"
+  pos-deleted: "&#FFAA55Tᴏчᴋи Pᴏs1 и Pᴏs2 удᴀлᴇʜы!"
+
+# Матч
+match:
+  started: "&#55FF55Пᴇᴘиᴏд {period} ʜᴀчᴀлᴄя! &#AAFFAA{minutes}"
+  force-ended: "&#FFAA55Мᴀтч дᴏᴄᴘᴏчʜᴏ зᴀʙᴇᴘшёʜ!"
+  not-started: "&#FF5555Мᴀтч ʜᴇ зᴀпущᴇʜ!"
+  paused: "&#FFAA55Bᴘᴇмя мᴀтчᴀ пᴘиᴏᴄтᴀʜᴏʙлᴇʜᴏ!"
+  resumed: "&#55FF55Bᴘᴇмя мᴀтчᴀ ʙᴏзᴏбʜᴏʙлᴇʜᴏ!"
+  natural-end: "&#FF0000&lДO BЫБPOCA!!!"
+
+# Перерыв
+break:
+  started: "&#55AAFFПᴇᴘᴇᴘыʙ ʜᴀ {seconds}c ʜᴀчᴀлᴄя!"
+  ended: "&#AAFFAAПᴇᴘᴇᴘыʙ зᴀᴋᴏʜчилᴄя!"
+  force-ended: "&#FFAA55Пᴇᴘᴇᴘыʙ был зᴀᴋᴏʜчᴇʜ дᴏᴄᴘᴏчʜᴏ!"
+  not-running: "&#FF5555Пᴇᴘᴇᴘыʙ ʜᴇ зᴀпущᴇʜ!"
+
+# Штрафы
+penalty:
+  added: "&#FF5555{player} пᴏᴄᴀжᴇʜ зᴀ {reason} ʜᴀ {minutes}м"
+  removed: "&#AAFFAA{player} ʙышᴇл дᴏᴄᴘᴏчʜᴏ!"
+  not-found: "&#FF5555У игᴘᴏᴋᴀ {player} ʜᴇт штᴘᴀȹᴀ!"
+  expired: "&#AAFFAA{player} ᴏтбыл штᴘᴀȹ!"
+  player-not-found: "&#FF5555Игᴘᴏᴋ {player} ʜиᴋᴏгдᴀ ʜᴇ зᴀxᴏдил ʜᴀ ᴄᴇᴘʙᴇᴘ!"
+
+  # История
+  history:
+    header: "&#FFAA55-- Иᴄтᴏᴘия штᴘᴀфᴏʙ (пᴏᴄлᴇдʜиᴇ 10) --"
+    empty: "&#AAAAAAИᴄтᴏᴘия штᴘᴀфᴏʙ пуᴄтᴀ."
+    entry: "&#FFAA55&l{player} &f&l{reason} &7&l{time} &8&l{date}"
+
+  # Буллит
+  bullit:
+    activated: "&7BULLITMODE - on (пизда вратарю...)"
+    description: "&8BULLITMODE - on"
+
+  # период
+  per:
+    activated: "PERMODE - on"
+    description: "PERMODE - on (время будет идти как обычно"
+
+# Лодки
+boat:
+  point-set: "&#55FF55Tᴏчᴋᴀ ᴄбᴘᴏᴄᴀ {number} Уᴄтᴀʜᴏʙлᴇʜᴀ!"
+  point-invalid: "&#FF5555Иᴄпᴏльзуйтᴇ ʜᴏмᴇᴘ ᴏт 1 дᴏ 9."
+  point-not-found: "&#FF5555Hᴇт тᴏчᴇᴋ ᴘядᴏм! Уᴄтᴀʜᴏʙитᴇ /ʙᴏᴀᴛ ᴘᴏs <1-9>"
+  point-deleted-all: "&#AAFFAABᴄᴇ тᴏчᴋи удᴀлᴇʜы!"
+  point-deleted: "&#FFAA55тᴏчᴋᴀ {number} ʏдᴀлᴇʜᴀ!"
+  point-not-exist: "&#FF5555Tᴏчᴋи {number} ʜᴇ ᴄущᴇᴄтʙʏᴇт!"
+  reset-started: "&#55AAFFСБРОС НА ТОЧКУ {number} ЗАПУЩЕН!"
+  reset-countdown: "&#AAFFAA{count}... гᴏтᴏʙимᴄя ᴋ ᴄбᴘᴏᴄу!"
+  reset-complete: "&#FFAA55&lCБPOC!! &#AAFFAA&lЛᴏдᴋᴀ ʜᴀ льду!"
+  clear-complete: "&#55FF55Oчищᴇʜᴏ {count} лᴏдᴏᴋ!"
+  clear-no-pos1: "&#FF5555Pᴏs1 ʜᴇ ʏᴄтᴀʜᴏʙлᴇʜ!"
+
+# Помощь
+help:
+  main:
+    - "&#FFAA55╭───── &#FFFFFFHTime v2.0 &#FFAA55────────────────────"
+    - "&#FFFFFF/htime pos1 &#AAAAAA— &#AAAAAAточка возврата"
+    - "&#FFFFFF/htime bullit &#AAAAAA— &#AAAAAAвключить режим: Буллит"
+    - "&#FFFFFF/htime per &#AAAAAA— &#AAAAAAвключить режим: период"
+    - "&#FFFFFF/htime pos2 &#AAAAAA— &#AAAAAAштрафная зона"
+    - "&#FFFFFF/htime pos del &#AAAAAA— &#AAAAAAудалить точки"
+    - "&#FFFFFF/htime 1/2/3 <время>m start &#AAAAAA— &#AAAAAAзапустить период"
+    - "&#FFFFFF/htime <ник> <причина> <время>m start &#AAAAAA— &#AAAAAAпосадить игрока"
+    - "&#FFFFFF/htime <ник> del &#AAAAAA— &#AAAAAAвыпустить досрочно"
+    - "&#FFFFFF/htime pereriv <сек>s start &#AAAAAA— &#AAAAAAперерыв"
+    - "&#FFFFFF/htime pereriv del &#AAAAAA— &#AAAAAAзакончить перерыв"
+    - "&#FFFFFF/htime history list &#AAAAAA— &#AAAAAAпоследние 10 штрафов"
+    - "&#FFFFFF/htime reload &#AAAAAA— &#AAAAAAперезагрузить конфиг"
+    - "&#A3E27F&lХ&#B5E899&lо&#C8EEB2&lк&#DAF3CC&lк&#EDF9E5&lе&#FFFFFF&lй"
+    - "&#AAAAAA══════════════════════════════════"
+
+  boat:
+    - "&#FFAA55╭───── &#FFFFFFСИСТЕМА ЛОДОК &#FFAA55──────────────────"
+    - "&#FFFFFF/boat pos <1-9> &#AAAAAA— &#AAAAAAустановить точку"
+    - "&#FFFFFF/boat reset &#AAAAAA— &#AAAAAAсброс на ближайшую"
+    - "&#FFFFFF/boat reset <1-9> &#AAAAAA— &#AAAAAAсброс на конкретную"
+    - "&#FFFFFF/boat del &#AAAAAA— &#AAAAAAудалить все точки"
+    - "&#FFFFFF/boat del <1-9> &#AAAAAA— &#AAAAAAудалить конкретную точку"
+    - "&#FFFFFF/boat clear &#AAAAAA— &#AAAAAAудалить все лодки от pos1"
+    - "&#AAAAAA══════════════════════════════════"
