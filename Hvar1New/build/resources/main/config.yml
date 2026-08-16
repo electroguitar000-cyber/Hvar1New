@@ -1,0 +1,85 @@
+goal-random-music-folder: "Goalmusic"
+
+arena1:
+  left:
+    pos1: null
+    pos2: null
+  right:
+    pos1: null
+    pos2: null
+  stvor1:
+    pos1: null
+  stvor2:
+    pos1: null
+  stvor3:
+    pos1: null
+  stvor4:
+    pos1: null
+  saveL:
+    pos1: null
+    pos2: null
+  saveR:
+    pos1: null
+    pos2: null
+  enabled: false
+  gate-delay-ticks: 8
+  center: null
+  team-names:
+    L: "Левая команда"
+    R: "Правая команда"
+  teams:
+    L: []
+    R: []
+  stats: {}
+  blocks: {}
+  possession: {}
+  clicks: {}
+  saves:
+    L: 0
+    R: 0
+  stvors:
+    L: 0
+    R: 0
+  colors: {}
+
+arena2:
+  left:
+    pos1: null
+    pos2: null
+  right:
+    pos1: null
+    pos2: null
+  stvor1:
+    pos1: null
+  stvor2:
+    pos1: null
+  stvor3:
+    pos1: null
+  stvor4:
+    pos1: null
+  saveL:
+    pos1: null
+    pos2: null
+  saveR:
+    pos1: null
+    pos2: null
+  enabled: false
+  gate-delay-ticks: 8
+  center: null
+  team-names:
+    L: "Левая команда"
+    R: "Правая команда"
+  teams:
+    L: []
+    R: []
+  stats: {}
+  blocks: {}
+  possession: {}
+  clicks: {}
+  saves:
+    L: 0
+    R: 0
+  stvors:
+    L: 0
+    R: 0
+  colors: {}

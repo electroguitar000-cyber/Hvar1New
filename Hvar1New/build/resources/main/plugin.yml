@@ -1,0 +1,173 @@
+name: Hvar1New
+version: 1.0.0
+main: ru.dev.koramikon.hvar1new.Hvar1NewPlugin
+api-version: 1.21
+author: Koramikon
+
+commands:
+  Hvar:
+    description: Глобальная команда плагина
+    usage: /Hvar reload
+
+  Hvar1:
+    description: Основная команда плагина (арена 1)
+    usage: /Hvar1 help
+  hclick:
+    description: CPS монитор
+    usage: /hclick
+  hvar1:
+    description: Команда для арены 1
+    usage: /hvar1 help
+  hvar2:
+    description: Команда для арены 2
+    usage: /hvar2 help
+  hvar3:
+    description: Команда для арены 3
+    usage: /hvar3 help
+  hvar4:
+    description: Команда для арены 4
+    usage: /hvar4 help
+  hvar5:
+    description: Команда для арены 5
+    usage: /hvar5 help
+  hvar6:
+    description: Команда для арены 6
+    usage: /hvar6 help
+  hvar7:
+    description: Команда для арены 7
+    usage: /hvar7 help
+  hvar8:
+    description: Команда для арены 8
+    usage: /hvar8 help
+  hvar9:
+    description: Команда для арены 9
+    usage: /hvar9 help
+  hvar10:
+    description: Команда для арены 10
+    usage: /hvar10 help
+  hvar11:
+    description: Команда для арены 11
+    usage: /hvar11 help
+  hvar12:
+    description: Команда для арены 12
+    usage: /hvar12 help
+  hvar13:
+    description: Команда для арены 13
+    usage: /hvar13 help
+  hvar14:
+    description: Команда для арены 14
+    usage: /hvar14 help
+  hvar15:
+    description: Команда для арены 15
+    usage: /hvar15 help
+  hvar16:
+    description: Команда для арены 16
+    usage: /hvar16 help
+  hvar17:
+    description: Команда для арены 17
+    usage: /hvar17 help
+  hvar18:
+    description: Команда для арены 18
+    usage: /hvar18 help
+  hvar19:
+    description: Команда для арены 19
+    usage: /hvar19 help
+  hvar20:
+    description: Команда для арены 20
+    usage: /hvar20 help
+  hvar21:
+    description: Команда для арены 21
+    usage: /hvar21 help
+  hvar22:
+    description: Команда для арены 22
+    usage: /hvar22 help
+  hvar23:
+    description: Команда для арены 23
+    usage: /hvar23 help
+  hvar24:
+    description: Команда для арены 24
+    usage: /hvar24 help
+  hvar25:
+    description: Команда для арены 25
+    usage: /hvar25 help
+  hvar26:
+    description: Команда для арены 26
+    usage: /hvar26 help
+  hvar27:
+    description: Команда для арены 27
+    usage: /hvar27 help
+  hvar28:
+    description: Команда для арены 28
+    usage: /hvar28 help
+  hvar29:
+    description: Команда для арены 29
+    usage: /hvar29 help
+  hvar30:
+    description: Команда для арены 30
+    usage: /hvar30 help
+  hvar31:
+    description: Команда для арены 31
+    usage: /hvar31 help
+  hvar32:
+    description: Команда для арены 32
+    usage: /hvar32 help
+  hvar33:
+    description: Команда для арены 33
+    usage: /hvar33 help
+  hvar34:
+    description: Команда для арены 34
+    usage: /hvar34 help
+  hvar35:
+    description: Команда для арены 35
+    usage: /hvar35 help
+  hvar36:
+    description: Команда для арены 36
+    usage: /hvar36 help
+  hvar37:
+    description: Команда для арены 37
+    usage: /hvar37 help
+  hvar38:
+    description: Команда для арены 38
+    usage: /hvar38 help
+  hvar39:
+    description: Команда для арены 39
+    usage: /hvar39 help
+  hvar40:
+    description: Команда для арены 40
+    usage: /hvar40 help
+  hvar41:
+    description: Команда для арены 41
+    usage: /hvar41 help
+  hvar42:
+    description: Команда для арены 42
+    usage: /hvar42 help
+  hvar43:
+    description: Команда для арены 43
+    usage: /hvar43 help
+  hvar44:
+    description: Команда для арены 44
+    usage: /hvar44 help
+  hvar45:
+    description: Команда для арены 45
+    usage: /hvar45 help
+  hvar46:
+    description: Команда для арены 46
+    usage: /hvar46 help
+  hvar47:
+    description: Команда для арены 47
+    usage: /hvar47 help
+  hvar48:
+    description: Команда для арены 48
+    usage: /hvar48 help
+  hvar49:
+    description: Команда для арены 49
+    usage: /hvar49 help
+  hvar50:
+    description: Команда для арены 50
+    usage: /hvar50 help
+
+permissions:
+  hvar1.use:
+    default: op
+  hvar1.reload:
+    default: op
