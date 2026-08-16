@@ -1,0 +1,9 @@
+name: DontMove
+version: 1.0.0
+main: dev.koramikon.dontmove.DontMove
+api-version: 1.21
+author: Koramikon
+commands:
+  dontmove:
+    description: Main command for DontMove plugin.
+    usage: /dontmove <help|on|off|1-4 pos1/pos2>

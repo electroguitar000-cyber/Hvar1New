@@ -1,0 +1,97 @@
+# Основные настройки плагина
+settings:
+  # Радиус действия (в блоках)
+  radius:
+    match: 100          # Радиус для сообщений матча
+    boat: 150           # Радиус для удаления лодок
+    actionbar: 100      # Радиус для actionbar
+
+  # Максимум записей в истории
+  max-history: 20
+
+  # Автосохранение (секунды)
+  auto-save: 600
+
+# Все текстовые сообщения
+messages:
+  # Общие сообщения
+  common:
+    player-only: "&#FF5555Только для игроков!"
+    no-permission: "&#FF5555У вас нет прав!"
+    invalid-syntax: "&#FF5555Использование: {usage}"
+    reloaded: "&#55FF55Конфигурация перезагружена!"
+
+  # Помощь
+  help:
+    - "&#FFDB0C&l✨ &#FFE02A&lF&#FFE449&lT&#FFE967&lɪ&#FFED86&lᴍ&#FFF6C2&lᴇ &#FFFBE1&l2&#FFFFFF&l.&#FFDB0C&l0 ✨"
+    - "&#777777&m─────────────────────"
+    - "&#FFDB0C/ftime help &#FFAA55— этᴏ ᴄᴏᴏбщᴇʜиᴇ"
+    - "&#FFDB0C/ftime <1|2> <время>m &#FFAA55— ʜᴀчᴀть тᴀйм"
+    - "&#FFDB0C/ftime del &#FFAA55— удᴀлить ʙᴄᴇ тᴀймᴇᴘы"
+    - "&#FFDB0C/ftime dop <время>m &#FFAA55— дᴏбᴀʙить дᴏп. ʙᴘᴇмя"
+    - "&#FFDB0C/ftime dop remove <время>m &#FFAA55— ʙычᴇᴄть дᴏп. ʙᴘᴇмя"
+    - "&#FFDB0C/ftime dop set <время>m &#FFAA55— уᴄтᴀʜᴏʙить дᴏп. ʙᴘᴇмя"
+    - "&#FFDB0C/ftime status dop &#FFAA55— статус доп. времени"
+    - "&#FFDB0C/ftime pereriv <сек>s start &#FFAA55— ʜᴀчᴀть пᴇᴘᴇᴘыʙ"
+    - "&#FFDB0C/ftime pereriv del &#FFAA55— зᴀʙᴇᴘшить пᴇᴘᴇᴘыʙ"
+    - "&#FFDB0C/ftime boat clear &#FFAA55— удᴀлить лᴏдᴋу"
+    - "&#FFDB0C/ftime yellow/red <ник> <причина> &#FFAA55— ʙыдᴀть ᴋᴀᴘтᴏчᴋу"
+    - "&#FFDB0C/ftime yellow/red <ник> del &#FFAA55— убᴘᴀть ᴋᴀᴘтᴏчᴋу"
+    - "&#FFDB0C/ftime history list &#FFAA55— пᴏᴄлᴇдʜиᴇ 20 ᴋᴀᴘтᴏчᴇᴋ"
+    - "&#777777❤ &#FFAA55By koramikon &#FFDB0C⚽"
+
+  # Сообщения матча (для ᴄудьи :3)
+  match:
+    started: "&#55FF55&l⚽ 3ᴀпущᴇʜ {period} пᴇᴘиᴏд ʜᴀ {minutes} миʜут!"
+    ended: "&#FF5555&l🏁 Матч завершён!"
+    force-ended: "&#FFAA55&l⚠ Матч принудительно завершён!"
+    not-started: "&#FF5555Матч не запущен!"
+    penka: "&c&l⚠ ВРЕМЯ ОСТАНОВЛЕНО (PENKA MODE)"
+    time: "&a&l✅ Обычный режим времени восстановлен! (TIME MODE)"
+
+  # Дополнительное время
+  dop:
+    added: "&#55FF55Добавлено {minutes} минут доп. времени!"
+    removed: "&#55FF55Вычтено {minutes} минут доп. времени!"
+    set: "&#55FF55Доп. время установлено на {minutes} минут (от {player})!"
+    no-data: "&#FF5555DOP времени нету! Запустите матч и добавьте его."
+    status: "&#55FF55{player} добавил доп. время {minutes}m в {date}."
+
+  # Перерыв
+  break:
+    started: "&#FFAA55&l⏸ ПЕРЕРЫВ НАЧАЛСЯ! Осталось: {seconds} сек"
+    ended: "&#55FF55&l▶ ПЕРЕРЫВ ЗАКОНЧИЛСЯ!"
+    force-ended: "&#FFAA55&l⚠ Перерыв принудительно завершён!"
+    not-running: "&#FF5555Перерыв не запущен!"
+
+  # Карточки
+  card:
+    yellow: "&#FFDD55&lЖЁЛТАЯ"
+    red: "&#FF5555&lКРАСНАЯ"
+    issued: "&#55FF55Выдана {color} карточка игроку {player} (причина: {reason})"
+    removed: "&#55FF55{color} карточка снята с {player}"
+    to-player: "&#FF5555Вам выдана {color} карточка! Причина: {reason}"
+    player-not-found: "&#FF5555Игрок {player} никогда не заходил!"
+
+  # История
+  history:
+    header: "&#FFDB0C&l-- History List --"
+    empty: "&#777777История пуста."
+    entry: "{color}{type} &#FFFFFF{player} &#777777{reason} &#888888{time} от {issuer}"
+
+  # Лодки
+  boat:
+    cleared: "&#55FF55Удалено {count} лодок в радиусе {radius} блоков!"
+    not-found: "&#777777В радиусе {radius} блоков лодок не найдено."
+
+  # ActionBar
+  actionbar:
+    normal: "&#55AAFF&l{period} тᴀйм - &#FFFFFF&l{time}"
+    with_extra: "&#55AAFF&l{period} тᴀйм - &#FFFFFF&l00:00 -- &#FFAA55&l+{time}"
+    break: "&#FFAA55&lПЕРЕРЫВ - &#FFFFFF&l{time}"
+      penka: "&c&l⚠ {period} тᴀйм - &4&lСТОП &c&l⚠"
+
+  # Широковещательные сообщения
+  broadcast:
+    start: "&#FF5555&l[FootBall Match] &#FFAA55&lTAЙM HAЧAЛCЯ!!!"
+    end: "&#FF5555&l[FootBall Match] &#FFAA55&lTAЙM 3ABEPШЁH!!!"

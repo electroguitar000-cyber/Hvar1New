@@ -1,0 +1,11 @@
+name: FTime2
+main: ru.dev.koramikon.ftime.FTime
+version: 1.0
+api-version: '1.21'
+author: koramikon
+description: Football match timer & cards
+
+commands:
+  ftime2:
+    description: Главная команда футбольного таймера
+    usage: /ftime2 <args>

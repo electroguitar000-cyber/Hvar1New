@@ -1,0 +1,17 @@
+name: ExplosionProtector
+version: 1.0.0
+main: ru.koramikon.explosionprotector.ExplosionProtector
+api-version: '1.21'
+author: Koramikon
+description: Плагин для блокировки взрывов у индивидуальных блоков.
+
+commands:
+  tntreload:
+    description: Перезагружает конфиг плагина
+    usage: /tntreload
+    permission: explosionprotector.reload
+
+permissions:
+  explosionprotector.reload:
+    description: Право на перезагрузку плагина
+    default: op

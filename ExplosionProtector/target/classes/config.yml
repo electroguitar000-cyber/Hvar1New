@@ -1,0 +1,5 @@
+mode: "BLACKLIST"
+blocks:
+  - "minecraft:respawn_anchor"
+  - "minecraft:tnt"
+  - "minecraft:tnt_minecart"
