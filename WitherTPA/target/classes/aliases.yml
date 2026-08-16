@@ -1,0 +1,8 @@
+# кастомные aliases
+aliases:
+  tpa: []
+  tp: []
+  tpaccept: [tpayes]
+  tpdeny: [tpano]
+  tpahere: []
+  tpreload: []

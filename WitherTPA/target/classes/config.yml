@@ -1,0 +1,8 @@
+# WitherTPA конфигурация
+# всё в секундах
+settings:
+  request-timeout: 30 # время за которое игрок должен принять /tpa
+  teleport-cooldown: 10 # кд между телепортациями
+  allow-cross-world: true
+messages:
+  prefix: "&#A3E27F<bold>W</bold>&#ABE58B<bold>i</bold>&#B4E796<bold>t</bold>&#BCEAA2<bold>h</bold>&#C4EDAE<bold>e</bold>&#CDEFB9<bold>r</bold>&#DEF4D0<bold>T</bold>&#E6F7DC<bold>P</bold>&#EEFAE8<bold>A</bold>&#F7FCF3<bold> </bold>&#FFFFFF<bold>: </bold>"

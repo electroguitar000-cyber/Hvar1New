@@ -1,0 +1,107 @@
+name: WitherTPA
+version: 1.0.0
+main: ru.koramikon.WitherTPA
+api-version: "1.21"
+author: koramikon
+description: Advanced teleportation plugin with request system
+
+commands:
+  withertpa:
+    description: Main plugin command
+    usage: /withertpa reload
+    permission: withertpa.reload
+  tpa:
+    description: Send teleport request to player
+    usage: /tpa <player>
+    aliases: []
+    permission: withertpa.tpa
+  tp:
+    description: Teleport to player without request or teleport player to player
+    usage: /tp <player> [player2]
+    aliases: []
+    permission: withertpa.tp
+  tpaccept:
+    description: Accept teleport request
+    usage: /tpaccept
+    aliases: [tpayes]
+    permission: withertpa.tpaccept
+  tpdeny:
+    description: Deny teleport request
+    usage: /tpdeny
+    aliases: [tpano]
+    permission: withertpa.tpdeny
+  tpahere:
+    description: Request player to teleport to you
+    usage: /tpahere <player>
+    aliases: []
+    permission: withertpa.tpahere
+  tpreload:
+    description: Reload plugin configuration
+    usage: /tpreload
+    aliases: []
+    permission: withertpa.reload
+  tpahelp:
+    description: Show full help for WitherTPA
+    usage: /tpahelp
+    aliases: [withertpahelp, tphelp]
+    permission: withertpa.tpahelp
+  tpnotice:
+    description: Toggle /tp teleport notifications
+    usage: /tpnotice on/off
+    aliases: [ ]
+    permission: withertpa.notice
+  tpanotice:
+    description: Toggle /tpa teleport notifications
+    usage: /tpanotice on/off
+    aliases: [ ]
+    permission: withertpa.notice
+
+permissions:
+  withertpa.*:
+    description: All WitherTPA permissions
+    default: op
+    children:
+      withertpa.tpa: true
+      withertpa.tp: true
+      withertpa.tpaccept: true
+      withertpa.tpdeny: true
+      withertpa.tpahere: true
+      withertpa.reload: true
+      withertpa.off: true
+      withertpa.on: true
+      withertpa.tp.others: true
+      withertpa.tpahelp: true
+      withertpa.notice: true
+  withertpa.tpa:
+    description: Allow use /tpa command
+    default: true
+  withertpa.tp:
+    description: Allow use /tp command
+    default: op
+  withertpa.tpaccept:
+    description: Allow accept teleport requests
+    default: true
+  withertpa.tpdeny:
+    description: Allow deny teleport requests
+    default: true
+  withertpa.tpahere:
+    description: Allow use /tpahere command
+    default: true
+  withertpa.reload:
+    description: Allow reload plugin
+    default: op
+  withertpa.off:
+    description: Allow block specific players from teleporting to you
+    default: true
+  withertpa.on:
+    description: Allow unblock specific players from teleporting to you
+    default: true
+  withertpa.tp.others:
+    description: Allow bypass player blocks and teleport other players
+    default: op
+  withertpa.tpahelp:
+    description: Allow use /tpahelp command
+    default: true
+  withertpa.notice:
+    description: Allow use /tpanotice command
+    default: op

@@ -1,0 +1,114 @@
+# все сообщения
+no-permission: "&#FF5555<bold>❌</bold> <reset>&#FF5555У вас нет прав на использование этой команды!"
+player-not-found: "&#FF5555<bold>❌</bold> <reset>&#FF5555Игрок не найден или не в сети!"
+invalid-usage: "&#FF5555<bold>❌</bold> <reset>&#FF5555Неверное использование команды!"
+player-not-specified: "&#FF5555<bold>❌</bold> <reset>&#FF5555Укажите ник игрока!"
+
+# TPA
+tpa-request-sent: "&#55FF55<bold>✔</bold> <reset>&#55FF55Запрос на телепортацию отправлен игроку {player}"
+tpa-request-received: "&#FFAA55<bold>➡</bold> <reset>&#FFAA55Игрок {player} хочет телепортироваться к вам!"
+tpa-request-expired: "&#FF5555<bold>⏰</bold> <reset>&#FF5555Запрос на телепортацию истёк!"
+tpa-already-request: "&#FF5555<bold>❌</bold> <reset>&#FF5555У вас уже есть активный запрос к этому игроку!"
+tpa-self: "&#FF5555<bold>❌</bold> <reset>&#FF5555Вы не можете отправить запрос самому себе!"
+tpa-target-off: "&#FF5555<bold>❌</bold> <reset>&#FF5555Игрок {player} отключил возможность получения запросов на телепортацию!"
+tpa-cooldown: "&#FF5555<bold>⏳</bold> <reset>&#FF5555Подождите ещё {time} секунд перед новой телепортацией!"
+
+# TP
+tp-success: "&#55FF55<bold>✔</bold> <reset>&#55FF55Вы телепортированы к игроку {player}"
+tp-success-other: "&#55FF55<bold>✔</bold> <reset>&#55FF55Игрок {player1} телепортирован к игроку {player2}"
+tp-failed: "&#FF5555<bold>❌</bold> <reset>&#FF5555Не удалось телепортироваться!"
+tp-target-off: "&#FF5555<bold>❌</bold> <reset>&#FF5555Игрок {player} отключил возможность прямой телепортации к себе!"
+tp-target-off-bypass: "&#FFAA55<bold>⚠</bold> <reset>&#FFAA55Игрок {player} отключил телепортацию к себе, но вы можете к нему телепортироваться! >:)"
+tp-self: "&#FF5555<bold>❌</bold> <reset>&#FF5555Вы не можете телепортироваться к самому себе!"
+
+# TP Here
+tpahere-request-sent: "&#55FF55<bold>✔</bold> <reset>&#55FF55Запрос отправлен игроку {player}"
+tpahere-request-received: "&#FFAA55<bold>➡</bold> <reset>&#FFAA55Игрок {player} просит вас телепортироваться к нему!"
+
+# Accept/Deny
+request-accepted: "&#55FF55<bold>✔</bold> <reset>&#55FF55Запрос принят! Телепортация..."
+request-denied: "&#FF5555<bold>❌</bold> <reset>&#FF5555Запрос отклонён!"
+no-requests: "&#FF5555<bold>❌</bold> <reset>&#FF5555У вас нет активных запросов на телепортацию!"
+request-accepted-target: "&#55FF55<bold>✔</bold> <reset>&#55FF55Игрок {player} принял ваш запрос! Телепортация..."
+request-denied-target: "&#FF5555<bold>❌</bold> <reset>&#FF5555Игрок {player} отклонил ваш запрос!"
+
+# настройки сообщений tpa tp on off
+tpa-off-enabled: "&#FFAA55<bold>⚡</bold> <reset>&#FFAA55Автоматическое отклонение запросов ВКЛЮЧЕНО"
+tpa-off-disabled: "&#55FF55<bold>⚡</bold> <reset>&#55FF55Автоматическое отклонение запросов ВЫКЛЮЧЕНО"
+tp-off-enabled: "&#FF5555<bold>🚫</bold> <reset>&#FF5555Прямая телепортация к вам ЗАПРЕЩЕНА"
+tp-off-disabled: "&#55FF55<bold>🚀</bold> <reset>&#55FF55Прямая телепортация к вам РАЗРЕШЕНА"
+
+# кнопки
+accept-button: "&#55FF55<bold>✅ ПРИНЯТЬ</bold>"
+deny-button: "&#FF5555<bold>❌ ОТКЛОНИТЬ</bold>"
+accept-button-hover: "&#AAAAAAНажмите, чтобы ПРИНЯТЬ"
+deny-button-hover: "&#AAAAAAНажмите, чтобы ОТКЛОНИТЬ"
+
+# перезагрузить
+reload-success: "&#55FF55<bold>✔</bold> <reset>&#55FF55Конфигурация перезагружена!"
+
+# Help menu (документация)
+help-header: "&#A3E27F<bold>=== WitherTPA Помощь ===</bold>"
+help-tpa: "&#55FFFF/tpa <ник> <reset>&f- отправить запрос на телепортацию"
+help-tp: "&#55FFFF/tp <ник> <reset>&f- телепортироваться к игроку"
+help-tp-other: "&#55FFFF/tp <ник1> <ник2> <reset>&f- телепортировать ник1 к ник2"
+help-tpahere: "&#55FFFF/tpahere <ник> <reset>&f- попросить игрока телепортироваться к вам"
+help-tpaccept: "&#55FFFF/tpaccept <reset>&f- принять запрос на телепортацию"
+help-tpdeny: "&#55FFFF/tpdeny <reset>&f- отклонить запрос на телепортацию"
+help-tpa-off: "&#55FFFF/tpa off <reset>&f- автоматически отклонять запросы"
+help-tpa-on: "&#55FFFF/tpa on <reset>&f- отключить авто-отклонение"
+help-tp-off: "&#55FFFF/tp off <reset>&f- запретить телепортацию к себе"
+help-tp-on: "&#55FFFF/tp on <reset>&f- разрешить телепортацию к себе"
+help-tpreload: "&#55FFFF/tpreload <reset>&f- перезагрузить конфиг"
+help-footer: "&#A3E27F<bold>========================</bold>"
+
+# TPA help
+help-tpa-header: "&#A3E27F<bold>=== /tpa команды ===</bold>"
+help-tpa: "&#55FFFF/tpa <игрок> <reset>&f- отправить запрос на телепортацию"
+help-tpa-off: "&#55FFFF/tpa off <reset>&f- автоматически отклонять все запросы"
+help-tpa-on: "&#55FFFF/tpa on <reset>&f- отключить авто-отклонение"
+
+# TPA Here help
+help-tpahere-header: "&#A3E27F<bold>=== /tpahere команды ===</bold>"
+help-tpahere: "&#55FFFF/tpahere <игрок> <reset>&f- попросить игрока телепортироваться к вам"
+
+# TP help
+help-tp-header: "&#A3E27F<bold>=== /tp команды ===</bold>"
+help-tp: "&#55FFFF/tp <игрок> <reset>&f- телепортироваться к игроку"
+help-tp-off: "&#55FFFF/tp off <игрок> <reset>&f- запретить игроку телепортироваться к вам"
+help-tp-on: "&#55FFFF/tp on <игрок> <reset>&f- разрешить игроку телепортироваться к вам"
+help-tp-other: "&#55FFFF/tp <игрок1> <игрок2> <reset>&f- телепортировать игрока1 к игроку2"
+
+# Использование команд
+tp-off-usage: "&#55FFFFИспользование: /tp off <ник>"
+tp-on-usage: "&#55FFFFИспользование: /tp on <ник>"
+tpa-usage: "&#55FFFFИспользование: /tpa <ник>"
+tpahere-usage: "&#55FFFFИспользование: /tpahere <ник>"
+
+# TP Notice
+tpnotice-usage: "&#55FFFFИспользование: /tpnotice on/off"
+tpnotice-on: "&#55FF55<bold>✔</bold> <reset>&#55FF55Оповещения о /tp телепортациях включены!"
+tpnotice-off: "&#FF5555<bold>✔</bold> <reset>&#FF5555Оповещения о /tp телепортациях выключены!"
+tpnotice-message: "&#FFAA55<bold>👁</bold> <reset>&#FFAA55Игрок {player} телепортировался к игроку {target} через /tp"
+
+# TPA Notice
+tpanotice-usage: "&#55FFFFИспользование: /tpanotice on/off"
+tpanotice-on: "&#55FF55<bold>✔</bold> <reset>&#55FF55Оповещения о /tpa телепортациях включены!"
+tpanotice-off: "&#FF5555<bold>✔</bold> <reset>&#FF5555Оповещения о /tpa телепортациях выключены!"
+tpanotice-message: "&#FFAA55<bold>👁</bold> <reset>&#FFAA55Игрок {player} телепортировался к игроку {target} через /tpa"
+
+ # permissions:
+ # withertpa.* - выдать доступ ко всем командам
+ # withertpa.tpa - /tpa true
+ # withertpa.tp - /tp op/permission
+ # withertpa.tpahere - /tpahere true
+ # withertpa.tpaccept - /tpaccept true
+ # withertpa.tpdeny - /tpdeny true
+ # withertpa.reload - /tpreload op/permission
+ # withertpa.off - /tpa off true
+ # withertpa.on - /tpa on true
+ # withertpa.tp.off - /tp off op/permission
+ # withertpa.tp.on - /tp on op/permission
+ # withertpa.tp.others - /tp nick1 nick2 op/permission
+ # withertpa.notice - /tpa notice on/off op/permission
+ # withertpa.notice - /tp notice on/off op/permission
