@@ -1,0 +1,48 @@
+name: PassportPlugin
+version: 1.0.0
+main: ru.dev.kisstymelusi.PassportPlugin
+api-version: 1.21
+author: Kisstymelusi (FUNPAY)
+
+commands:
+  passport:
+    description: Main passport command
+    usage: /<command> <create|refresh|open|reload|give|accept|deny|edit>
+
+permissions:
+  passport.*:
+    description: Full access to all passport commands
+    default: false
+    children:
+      passport.create: true
+      passport.refresh: true
+      passport.open: true
+      passport.reload: true
+      passport.give: true
+      passport.accept: true
+      passport.deny: true
+      passport.edit: true
+  passport.create:
+    description: Create passport for a player
+    default: false
+  passport.refresh:
+    description: Refresh expired passport
+    default: false
+  passport.open:
+    description: Open passport
+    default: false
+  passport.reload:
+    description: Reload plugin
+    default: false
+  passport.give:
+    description: Give/show passport to another player
+    default: false
+  passport.accept:
+    description: Accept passport view request
+    default: false
+  passport.deny:
+    description: Deny passport view request
+    default: false
+  passport.edit:
+    description: Edit own passport
+    default: false
