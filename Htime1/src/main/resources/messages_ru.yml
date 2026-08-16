@@ -1,0 +1,85 @@
+# Префикс с динамической подстановкой арены
+prefix: "&#E64C4C&l[Htime{arena}] &r"
+
+# Общие
+common:
+  no-permission: "&#FF5555У вас нет прав на использование этой команды."
+  player-only: "&#FF5555Эта команда только для игроков!"
+  invalid-syntax: "&#FFAA55Неверный синтаксис. Используйте: {usage}"
+  reloaded: "&#55FF55Плагин перезагружен!"
+
+# Точки
+pos:
+  pos1-set: "&#55FF55Pos1 установлена!"
+  pos2-set: "&#FF5555Pos2 установлена!"
+  pos-deleted: "&#FFAA55Точки Pos1 и Pos2 удалены!"
+
+# Матч
+match:
+  started: "&#55FF55Период {period} начался! &#AAFFAA{minutes}"
+  force-ended: "&#FFAA55Матч досрочно завершён!"
+  not-started: "&#FF5555Матч не запущен!"
+  paused: "&#FFAA55Время матча приостановлено!"
+  resumed: "&#55FF55Время матча возобновлено!"
+  natural-end: "&#FF0000&lДО ВЫБРОСА!!!"
+
+# Перерыв
+break:
+  started: "&#55AAFFПерерыв на {seconds}с начался!"
+  ended: "&#AAFFAAПерерыв закончился!"
+  force-ended: "&#FFAA55Перерыв был закончен досрочно!"
+  not-running: "&#FF5555Перерыв не запущен!"
+
+# Штрафы
+penalty:
+  added: "&#FF5555{player} посажен за {reason} на {minutes}м"
+  removed: "&#AAFFAA{player} вышел досрочно!"
+  not-found: "&#FF5555У игрока {player} нет штрафа!"
+  expired: "&#AAFFAA{player} отбыл штраф!"
+  player-not-found: "&#FF5555Игрок {player} никогда не заходил на сервер!"
+  history:
+    header: "&#FFAA55-- История штрафов (последние 10) --"
+    empty: "&#AAAAAAИстория штрафов пуста."
+    entry: "&#FFAA55{player} &f{reason} &7{time} &8{date}"
+
+# Лодки
+boat:
+  point-set: "&#55FF55Точка сброса {number} установлена!"
+  point-invalid: "&#FF5555Используйте номер от 1 до 9."
+  point-not-found: "&#FF5555Нет точек рядом! Установите /boat{arena} pos <1-9>"
+  point-deleted-all: "&#AAFFAAВсе точки удалены!"
+  point-deleted: "&#FFAA55Точка {number} удалена!"
+  point-not-exist: "&#FF5555Точки {number} не существует!"
+  reset-started: "&#55AAFFСБРОС НА ТОЧКУ {number} ЗАПУЩЕН!"
+  reset-countdown: "&#AAFFAA{count}... готовимся к сбросу!"
+  reset-complete: "&#FFAA55&lСБРОС!! &#AAFFAA&lЛодка на льду!"
+  clear-complete: "&#55FF55Очищено {count} лодок!"
+  clear-no-pos1: "&#FF5555Pos1 не установлен! (/htime{arena} pos1)"
+
+# Помощь
+help:
+  main:
+    - "&#FFAA55╭───── &#FFFFFFHtime v2.0 &#FFAA55────────────────────"
+    - "&#FFFFFF/htime{arena} pos1 &#AAAAAA— &#AAAAAAточка возврата"
+    - "&#FFFFFF/htime{arena} pos2 &#AAAAAA— &#AAAAAAштрафная зона"
+    - "&#FFFFFF/htime{arena} pos del &#AAAAAA— &#AAAAAAудалить точки"
+    - "&#FFFFFF/htime{arena} 1/2/3 <время> &#AAAAAA— &#AAAAAAзапустить период (15:30 или 15m)"
+    - "&#FFFFFF/htime{arena} <ник> <причина> <время>m start &#AAAAAA— &#AAAAAAпосадить"
+    - "&#FFFFFF/htime{arena} <ник> del &#AAAAAA— &#AAAAAAвыпустить досрочно"
+    - "&#FFFFFF/htime{arena} pereriv <сек>s &#AAAAAA— &#AAAAAAперерыв (без ограничений)"
+    - "&#FFFFFF/htime{arena} bullit &#AAAAAA— &#AAAAAAвечная пауза"
+    - "&#FFFFFF/htime{arena} per &#AAAAAA— &#AAAAAAобычный режим"
+    - "&#FFFFFF/htime{arena} reload &#AAAAAA— &#AAAAAAперезагрузить конфиг"
+    - "&#806CFFС уважением ваш кодер &7- &#B9ADFFKoramikon"
+    - "&#AAAAAA══════════════════════════════════"
+
+  boat:
+    - "&#FFAA55╭───── &#FFFFFFСИСТЕМА ЛОДОК &#FFAA55──────────────────"
+    - "&#FFFFFF/boat{arena} pos <1-9> &#AAAAAA— &#AAAAAAустановить точку"
+    - "&#FFFFFF/boat{arena} reset &#AAAAAA— &#AAAAAAсброс на ближайшую"
+    - "&#FFFFFF/boat{arena} reset <1-9> &#AAAAAA— &#AAAAAAсброс на конкретную"
+    - "&#FFFFFF/boat{arena} del &#AAAAAA— &#AAAAAAудалить все точки"
+    - "&#FFFFFF/boat{arena} del <1-9> &#AAAAAA— &#AAAAAAудалить конкретную точку"
+    - "&#FFFFFF/boat{arena} clear &#AAAAAA— &#AAAAAAудалить все лодки от pos1"
+    - "&#806CFFС уважением ваш кодер &7- &#B9ADFFKoramikon"
+    - "&#AAAAAA══════════════════════════════════"

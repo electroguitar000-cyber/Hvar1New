@@ -1,0 +1,1265 @@
+name: Htime1
+version: '${version}'
+main: ru.dev.koramikon.wtime.WTime
+api-version: '1.21'
+author: koramikon
+description: Хоккейный таймер + штрафы + эпичный сброс шахедов
+
+commands:
+  htime:
+    description: Глобальная команда для перезагрузки плагина
+    usage: /htime reload
+    aliases: [ht]
+
+  htime1:
+    description: Хоккейный таймер 1
+    usage: /htime1 help
+    aliases: [ht1]
+  htime2:
+    description: Хоккейный таймер 2
+    usage: /htime2 help
+    aliases: [ht2]
+  htime3:
+    description: Хоккейный таймер 3
+    usage: /htime3 help
+    aliases: [ht3]
+  htime4:
+    description: Хоккейный таймер 4
+    usage: /htime4 help
+    aliases: [ht4]
+  htime5:
+    description: Хоккейный таймер 5
+    usage: /htime5 help
+    aliases: [ht5]
+  htime6:
+    description: Хоккейный таймер 6
+    usage: /htime6 help
+    aliases: [ht6]
+  htime7:
+    description: Хоккейный таймер 7
+    usage: /htime7 help
+    aliases: [ht7]
+  htime8:
+    description: Хоккейный таймер 8
+    usage: /htime8 help
+    aliases: [ht8]
+  htime9:
+    description: Хоккейный таймер 9
+    usage: /htime9 help
+    aliases: [ht9]
+  htime10:
+    description: Хоккейный таймер 10
+    usage: /htime10 help
+    aliases: [ht10]
+  htime11:
+    description: Хоккейный таймер 11
+    usage: /htime11 help
+    aliases: [ht11]
+  htime12:
+    description: Хоккейный таймер 12
+    usage: /htime12 help
+    aliases: [ht12]
+  htime13:
+    description: Хоккейный таймер 13
+    usage: /htime13 help
+    aliases: [ht13]
+  htime14:
+    description: Хоккейный таймер 14
+    usage: /htime14 help
+    aliases: [ht14]
+  htime15:
+    description: Хоккейный таймер 15
+    usage: /htime15 help
+    aliases: [ht15]
+  htime16:
+    description: Хоккейный таймер 16
+    usage: /htime16 help
+    aliases: [ht16]
+  htime17:
+    description: Хоккейный таймер 17
+    usage: /htime17 help
+    aliases: [ht17]
+  htime18:
+    description: Хоккейный таймер 18
+    usage: /htime18 help
+    aliases: [ht18]
+  htime19:
+    description: Хоккейный таймер 19
+    usage: /htime19 help
+    aliases: [ht19]
+  htime20:
+    description: Хоккейный таймер 20
+    usage: /htime20 help
+    aliases: [ht20]
+  htime21:
+    description: Хоккейный таймер 21
+    usage: /htime21 help
+    aliases: [ht21]
+  htime22:
+    description: Хоккейный таймер 22
+    usage: /htime22 help
+    aliases: [ht22]
+  htime23:
+    description: Хоккейный таймер 23
+    usage: /htime23 help
+    aliases: [ht23]
+  htime24:
+    description: Хоккейный таймер 24
+    usage: /htime24 help
+    aliases: [ht24]
+  htime25:
+    description: Хоккейный таймер 25
+    usage: /htime25 help
+    aliases: [ht25]
+  htime26:
+    description: Хоккейный таймер 26
+    usage: /htime26 help
+    aliases: [ht26]
+  htime27:
+    description: Хоккейный таймер 27
+    usage: /htime27 help
+    aliases: [ht27]
+  htime28:
+    description: Хоккейный таймер 28
+    usage: /htime28 help
+    aliases: [ht28]
+  htime29:
+    description: Хоккейный таймер 29
+    usage: /htime29 help
+    aliases: [ht29]
+  htime30:
+    description: Хоккейный таймер 30
+    usage: /htime30 help
+    aliases: [ht30]
+  htime31:
+    description: Хоккейный таймер 31
+    usage: /htime31 help
+    aliases: [ht31]
+  htime32:
+    description: Хоккейный таймер 32
+    usage: /htime32 help
+    aliases: [ht32]
+  htime33:
+    description: Хоккейный таймер 33
+    usage: /htime33 help
+    aliases: [ht33]
+  htime34:
+    description: Хоккейный таймер 34
+    usage: /htime34 help
+    aliases: [ht34]
+  htime35:
+    description: Хоккейный таймер 35
+    usage: /htime35 help
+    aliases: [ht35]
+  htime36:
+    description: Хоккейный таймер 36
+    usage: /htime36 help
+    aliases: [ht36]
+  htime37:
+    description: Хоккейный таймер 37
+    usage: /htime37 help
+    aliases: [ht37]
+  htime38:
+    description: Хоккейный таймер 38
+    usage: /htime38 help
+    aliases: [ht38]
+  htime39:
+    description: Хоккейный таймер 39
+    usage: /htime39 help
+    aliases: [ht39]
+  htime40:
+    description: Хоккейный таймер 40
+    usage: /htime40 help
+    aliases: [ht40]
+  htime41:
+    description: Хоккейный таймер 41
+    usage: /htime41 help
+    aliases: [ht41]
+  htime42:
+    description: Хоккейный таймер 42
+    usage: /htime42 help
+    aliases: [ht42]
+  htime43:
+    description: Хоккейный таймер 43
+    usage: /htime43 help
+    aliases: [ht43]
+  htime44:
+    description: Хоккейный таймер 44
+    usage: /htime44 help
+    aliases: [ht44]
+  htime45:
+    description: Хоккейный таймер 45
+    usage: /htime45 help
+    aliases: [ht45]
+  htime46:
+    description: Хоккейный таймер 46
+    usage: /htime46 help
+    aliases: [ht46]
+  htime47:
+    description: Хоккейный таймер 47
+    usage: /htime47 help
+    aliases: [ht47]
+  htime48:
+    description: Хоккейный таймер 48
+    usage: /htime48 help
+    aliases: [ht48]
+  htime49:
+    description: Хоккейный таймер 49
+    usage: /htime49 help
+    aliases: [ht49]
+  htime50:
+    description: Хоккейный таймер 50
+    usage: /htime50 help
+    aliases: [ht50]
+
+  boat1:
+    description: Лодки для таймера 1
+    usage: /boat1 help
+    aliases: [b1]
+  boat2:
+    description: Лодки для таймера 2
+    usage: /boat2 help
+    aliases: [b2]
+  boat3:
+    description: Лодки для таймера 3
+    usage: /boat3 help
+    aliases: [b3]
+  boat4:
+    description: Лодки для таймера 4
+    usage: /boat4 help
+    aliases: [b4]
+  boat5:
+    description: Лодки для таймера 5
+    usage: /boat5 help
+    aliases: [b5]
+  boat6:
+    description: Лодки для таймера 6
+    usage: /boat6 help
+    aliases: [b6]
+  boat7:
+    description: Лодки для таймера 7
+    usage: /boat7 help
+    aliases: [b7]
+  boat8:
+    description: Лодки для таймера 8
+    usage: /boat8 help
+    aliases: [b8]
+  boat9:
+    description: Лодки для таймера 9
+    usage: /boat9 help
+    aliases: [b9]
+  boat10:
+    description: Лодки для таймера 10
+    usage: /boat10 help
+    aliases: [b10]
+  boat11:
+    description: Лодки для таймера 11
+    usage: /boat11 help
+    aliases: [b11]
+  boat12:
+    description: Лодки для таймера 12
+    usage: /boat12 help
+    aliases: [b12]
+  boat13:
+    description: Лодки для таймера 13
+    usage: /boat13 help
+    aliases: [b13]
+  boat14:
+    description: Лодки для таймера 14
+    usage: /boat14 help
+    aliases: [b14]
+  boat15:
+    description: Лодки для таймера 15
+    usage: /boat15 help
+    aliases: [b15]
+  boat16:
+    description: Лодки для таймера 16
+    usage: /boat16 help
+    aliases: [b16]
+  boat17:
+    description: Лодки для таймера 17
+    usage: /boat17 help
+    aliases: [b17]
+  boat18:
+    description: Лодки для таймера 18
+    usage: /boat18 help
+    aliases: [b18]
+  boat19:
+    description: Лодки для таймера 19
+    usage: /boat19 help
+    aliases: [b19]
+  boat20:
+    description: Лодки для таймера 20
+    usage: /boat20 help
+    aliases: [b20]
+  boat21:
+    description: Лодки для таймера 21
+    usage: /boat21 help
+    aliases: [b21]
+  boat22:
+    description: Лодки для таймера 22
+    usage: /boat22 help
+    aliases: [b22]
+  boat23:
+    description: Лодки для таймера 23
+    usage: /boat23 help
+    aliases: [b23]
+  boat24:
+    description: Лодки для таймера 24
+    usage: /boat24 help
+    aliases: [b24]
+  boat25:
+    description: Лодки для таймера 25
+    usage: /boat25 help
+    aliases: [b25]
+  boat26:
+    description: Лодки для таймера 26
+    usage: /boat26 help
+    aliases: [b26]
+  boat27:
+    description: Лодки для таймера 27
+    usage: /boat27 help
+    aliases: [b27]
+  boat28:
+    description: Лодки для таймера 28
+    usage: /boat28 help
+    aliases: [b28]
+  boat29:
+    description: Лодки для таймера 29
+    usage: /boat29 help
+    aliases: [b29]
+  boat30:
+    description: Лодки для таймера 30
+    usage: /boat30 help
+    aliases: [b30]
+  boat31:
+    description: Лодки для таймера 31
+    usage: /boat31 help
+    aliases: [b31]
+  boat32:
+    description: Лодки для таймера 32
+    usage: /boat32 help
+    aliases: [b32]
+  boat33:
+    description: Лодки для таймера 33
+    usage: /boat33 help
+    aliases: [b33]
+  boat34:
+    description: Лодки для таймера 34
+    usage: /boat34 help
+    aliases: [b34]
+  boat35:
+    description: Лодки для таймера 35
+    usage: /boat35 help
+    aliases: [b35]
+  boat36:
+    description: Лодки для таймера 36
+    usage: /boat36 help
+    aliases: [b36]
+  boat37:
+    description: Лодки для таймера 37
+    usage: /boat37 help
+    aliases: [b37]
+  boat38:
+    description: Лодки для таймера 38
+    usage: /boat38 help
+    aliases: [b38]
+  boat39:
+    description: Лодки для таймера 39
+    usage: /boat39 help
+    aliases: [b39]
+  boat40:
+    description: Лодки для таймера 40
+    usage: /boat40 help
+    aliases: [b40]
+  boat41:
+    description: Лодки для таймера 41
+    usage: /boat41 help
+    aliases: [b41]
+  boat42:
+    description: Лодки для таймера 42
+    usage: /boat42 help
+    aliases: [b42]
+  boat43:
+    description: Лодки для таймера 43
+    usage: /boat43 help
+    aliases: [b43]
+  boat44:
+    description: Лодки для таймера 44
+    usage: /boat44 help
+    aliases: [b44]
+  boat45:
+    description: Лодки для таймера 45
+    usage: /boat45 help
+    aliases: [b45]
+  boat46:
+    description: Лодки для таймера 46
+    usage: /boat46 help
+    aliases: [b46]
+  boat47:
+    description: Лодки для таймера 47
+    usage: /boat47 help
+    aliases: [b47]
+  boat48:
+    description: Лодки для таймера 48
+    usage: /boat48 help
+    aliases: [b48]
+  boat49:
+    description: Лодки для таймера 49
+    usage: /boat49 help
+    aliases: [b49]
+  boat50:
+    description: Лодки для таймера 50
+    usage: /boat50 help
+    aliases: [b50]
+
+permissions:
+  htime1.*:
+    description: Все права для таймера 1
+    default: op
+    children:
+      htime1.pos: true
+      htime1.match: true
+      htime1.boat: true
+  htime1.pos:
+    description: Установка точек для таймера 1
+    default: op
+  htime1.match:
+    description: Управление матчем для таймера 1
+    default: op
+  htime1.boat:
+    description: Управление лодками для таймера 1
+    default: op
+
+  htime2.*:
+    description: Все права для таймера 2
+    default: op
+    children:
+      htime2.pos: true
+      htime2.match: true
+      htime2.boat: true
+  htime2.pos:
+    description: Установка точек для таймера 2
+    default: op
+  htime2.match:
+    description: Управление матчем для таймера 2
+    default: op
+  htime2.boat:
+    description: Управление лодками для таймера 2
+    default: op
+
+  htime3.*:
+    description: Все права для таймера 3
+    default: op
+    children:
+      htime3.pos: true
+      htime3.match: true
+      htime3.boat: true
+  htime3.pos:
+    description: Установка точек для таймера 3
+    default: op
+  htime3.match:
+    description: Управление матчем для таймера 3
+    default: op
+  htime3.boat:
+    description: Управление лодками для таймера 3
+    default: op
+
+  htime4.*:
+    description: Все права для таймера 4
+    default: op
+    children:
+      htime4.pos: true
+      htime4.match: true
+      htime4.boat: true
+  htime4.pos:
+    description: Установка точек для таймера 4
+    default: op
+  htime4.match:
+    description: Управление матчем для таймера 4
+    default: op
+  htime4.boat:
+    description: Управление лодками для таймера 4
+    default: op
+
+  htime5.*:
+    description: Все права для таймера 5
+    default: op
+    children:
+      htime5.pos: true
+      htime5.match: true
+      htime5.boat: true
+  htime5.pos:
+    description: Установка точек для таймера 5
+    default: op
+  htime5.match:
+    description: Управление матчем для таймера 5
+    default: op
+  htime5.boat:
+    description: Управление лодками для таймера 5
+    default: op
+
+  htime6.*:
+    description: Все права для таймера 6
+    default: op
+    children:
+      htime6.pos: true
+      htime6.match: true
+      htime6.boat: true
+  htime6.pos:
+    description: Установка точек для таймера 6
+    default: op
+  htime6.match:
+    description: Управление матчем для таймера 6
+    default: op
+  htime6.boat:
+    description: Управление лодками для таймера 6
+    default: op
+
+  htime7.*:
+    description: Все права для таймера 7
+    default: op
+    children:
+      htime7.pos: true
+      htime7.match: true
+      htime7.boat: true
+  htime7.pos:
+    description: Установка точек для таймера 7
+    default: op
+  htime7.match:
+    description: Управление матчем для таймера 7
+    default: op
+  htime7.boat:
+    description: Управление лодками для таймера 7
+    default: op
+
+  htime8.*:
+    description: Все права для таймера 8
+    default: op
+    children:
+      htime8.pos: true
+      htime8.match: true
+      htime8.boat: true
+  htime8.pos:
+    description: Установка точек для таймера 8
+    default: op
+  htime8.match:
+    description: Управление матчем для таймера 8
+    default: op
+  htime8.boat:
+    description: Управление лодками для таймера 8
+    default: op
+
+  htime9.*:
+    description: Все права для таймера 9
+    default: op
+    children:
+      htime9.pos: true
+      htime9.match: true
+      htime9.boat: true
+  htime9.pos:
+    description: Установка точек для таймера 9
+    default: op
+  htime9.match:
+    description: Управление матчем для таймера 9
+    default: op
+  htime9.boat:
+    description: Управление лодками для таймера 9
+    default: op
+
+  htime10.*:
+    description: Все права для таймера 10
+    default: op
+    children:
+      htime10.pos: true
+      htime10.match: true
+      htime10.boat: true
+  htime10.pos:
+    description: Установка точек для таймера 10
+    default: op
+  htime10.match:
+    description: Управление матчем для таймера 10
+    default: op
+  htime10.boat:
+    description: Управление лодками для таймера 10
+    default: op
+
+  htime11.*:
+    description: Все права для таймера 11
+    default: op
+    children:
+      htime11.pos: true
+      htime11.match: true
+      htime11.boat: true
+  htime11.pos:
+    description: Установка точек для таймера 11
+    default: op
+  htime11.match:
+    description: Управление матчем для таймера 11
+    default: op
+  htime11.boat:
+    description: Управление лодками для таймера 11
+    default: op
+
+  htime12.*:
+    description: Все права для таймера 12
+    default: op
+    children:
+      htime12.pos: true
+      htime12.match: true
+      htime12.boat: true
+  htime12.pos:
+    description: Установка точек для таймера 12
+    default: op
+  htime12.match:
+    description: Управление матчем для таймера 12
+    default: op
+  htime12.boat:
+    description: Управление лодками для таймера 12
+    default: op
+
+  htime13.*:
+    description: Все права для таймера 13
+    default: op
+    children:
+      htime13.pos: true
+      htime13.match: true
+      htime13.boat: true
+  htime13.pos:
+    description: Установка точек для таймера 13
+    default: op
+  htime13.match:
+    description: Управление матчем для таймера 13
+    default: op
+  htime13.boat:
+    description: Управление лодками для таймера 13
+    default: op
+
+  htime14.*:
+    description: Все права для таймера 14
+    default: op
+    children:
+      htime14.pos: true
+      htime14.match: true
+      htime14.boat: true
+  htime14.pos:
+    description: Установка точек для таймера 14
+    default: op
+  htime14.match:
+    description: Управление матчем для таймера 14
+    default: op
+  htime14.boat:
+    description: Управление лодками для таймера 14
+    default: op
+
+  htime15.*:
+    description: Все права для таймера 15
+    default: op
+    children:
+      htime15.pos: true
+      htime15.match: true
+      htime15.boat: true
+  htime15.pos:
+    description: Установка точек для таймера 15
+    default: op
+  htime15.match:
+    description: Управление матчем для таймера 15
+    default: op
+  htime15.boat:
+    description: Управление лодками для таймера 15
+    default: op
+
+  htime16.*:
+    description: Все права для таймера 16
+    default: op
+    children:
+      htime16.pos: true
+      htime16.match: true
+      htime16.boat: true
+  htime16.pos:
+    description: Установка точек для таймера 16
+    default: op
+  htime16.match:
+    description: Управление матчем для таймера 16
+    default: op
+  htime16.boat:
+    description: Управление лодками для таймера 16
+    default: op
+
+  htime17.*:
+    description: Все права для таймера 17
+    default: op
+    children:
+      htime17.pos: true
+      htime17.match: true
+      htime17.boat: true
+  htime17.pos:
+    description: Установка точек для таймера 17
+    default: op
+  htime17.match:
+    description: Управление матчем для таймера 17
+    default: op
+  htime17.boat:
+    description: Управление лодками для таймера 17
+    default: op
+
+  htime18.*:
+    description: Все права для таймера 18
+    default: op
+    children:
+      htime18.pos: true
+      htime18.match: true
+      htime18.boat: true
+  htime18.pos:
+    description: Установка точек для таймера 18
+    default: op
+  htime18.match:
+    description: Управление матчем для таймера 18
+    default: op
+  htime18.boat:
+    description: Управление лодками для таймера 18
+    default: op
+
+  htime19.*:
+    description: Все права для таймера 19
+    default: op
+    children:
+      htime19.pos: true
+      htime19.match: true
+      htime19.boat: true
+  htime19.pos:
+    description: Установка точек для таймера 19
+    default: op
+  htime19.match:
+    description: Управление матчем для таймера 19
+    default: op
+  htime19.boat:
+    description: Управление лодками для таймера 19
+    default: op
+
+  htime20.*:
+    description: Все права для таймера 20
+    default: op
+    children:
+      htime20.pos: true
+      htime20.match: true
+      htime20.boat: true
+  htime20.pos:
+    description: Установка точек для таймера 20
+    default: op
+  htime20.match:
+    description: Управление матчем для таймера 20
+    default: op
+  htime20.boat:
+    description: Управление лодками для таймера 20
+    default: op
+
+  htime21.*:
+    description: Все права для таймера 21
+    default: op
+    children:
+      htime21.pos: true
+      htime21.match: true
+      htime21.boat: true
+  htime21.pos:
+    description: Установка точек для таймера 21
+    default: op
+  htime21.match:
+    description: Управление матчем для таймера 21
+    default: op
+  htime21.boat:
+    description: Управление лодками для таймера 21
+    default: op
+
+  htime22.*:
+    description: Все права для таймера 22
+    default: op
+    children:
+      htime22.pos: true
+      htime22.match: true
+      htime22.boat: true
+  htime22.pos:
+    description: Установка точек для таймера 22
+    default: op
+  htime22.match:
+    description: Управление матчем для таймера 22
+    default: op
+  htime22.boat:
+    description: Управление лодками для таймера 22
+    default: op
+
+  htime23.*:
+    description: Все права для таймера 23
+    default: op
+    children:
+      htime23.pos: true
+      htime23.match: true
+      htime23.boat: true
+  htime23.pos:
+    description: Установка точек для таймера 23
+    default: op
+  htime23.match:
+    description: Управление матчем для таймера 23
+    default: op
+  htime23.boat:
+    description: Управление лодками для таймера 23
+    default: op
+
+  htime24.*:
+    description: Все права для таймера 24
+    default: op
+    children:
+      htime24.pos: true
+      htime24.match: true
+      htime24.boat: true
+  htime24.pos:
+    description: Установка точек для таймера 24
+    default: op
+  htime24.match:
+    description: Управление матчем для таймера 24
+    default: op
+  htime24.boat:
+    description: Управление лодками для таймера 24
+    default: op
+
+  htime25.*:
+    description: Все права для таймера 25
+    default: op
+    children:
+      htime25.pos: true
+      htime25.match: true
+      htime25.boat: true
+  htime25.pos:
+    description: Установка точек для таймера 25
+    default: op
+  htime25.match:
+    description: Управление матчем для таймера 25
+    default: op
+  htime25.boat:
+    description: Управление лодками для таймера 25
+    default: op
+
+  htime26.*:
+    description: Все права для таймера 26
+    default: op
+    children:
+      htime26.pos: true
+      htime26.match: true
+      htime26.boat: true
+  htime26.pos:
+    description: Установка точек для таймера 26
+    default: op
+  htime26.match:
+    description: Управление матчем для таймера 26
+    default: op
+  htime26.boat:
+    description: Управление лодками для таймера 26
+    default: op
+
+  htime27.*:
+    description: Все права для таймера 27
+    default: op
+    children:
+      htime27.pos: true
+      htime27.match: true
+      htime27.boat: true
+  htime27.pos:
+    description: Установка точек для таймера 27
+    default: op
+  htime27.match:
+    description: Управление матчем для таймера 27
+    default: op
+  htime27.boat:
+    description: Управление лодками для таймера 27
+    default: op
+
+  htime28.*:
+    description: Все права для таймера 28
+    default: op
+    children:
+      htime28.pos: true
+      htime28.match: true
+      htime28.boat: true
+  htime28.pos:
+    description: Установка точек для таймера 28
+    default: op
+  htime28.match:
+    description: Управление матчем для таймера 28
+    default: op
+  htime28.boat:
+    description: Управление лодками для таймера 28
+    default: op
+
+  htime29.*:
+    description: Все права для таймера 29
+    default: op
+    children:
+      htime29.pos: true
+      htime29.match: true
+      htime29.boat: true
+  htime29.pos:
+    description: Установка точек для таймера 29
+    default: op
+  htime29.match:
+    description: Управление матчем для таймера 29
+    default: op
+  htime29.boat:
+    description: Управление лодками для таймера 29
+    default: op
+
+  htime30.*:
+    description: Все права для таймера 30
+    default: op
+    children:
+      htime30.pos: true
+      htime30.match: true
+      htime30.boat: true
+  htime30.pos:
+    description: Установка точек для таймера 30
+    default: op
+  htime30.match:
+    description: Управление матчем для таймера 30
+    default: op
+  htime30.boat:
+    description: Управление лодками для таймера 30
+    default: op
+
+  htime31.*:
+    description: Все права для таймера 31
+    default: op
+    children:
+      htime31.pos: true
+      htime31.match: true
+      htime31.boat: true
+  htime31.pos:
+    description: Установка точек для таймера 31
+    default: op
+  htime31.match:
+    description: Управление матчем для таймера 31
+    default: op
+  htime31.boat:
+    description: Управление лодками для таймера 31
+    default: op
+
+  htime32.*:
+    description: Все права для таймера 32
+    default: op
+    children:
+      htime32.pos: true
+      htime32.match: true
+      htime32.boat: true
+  htime32.pos:
+    description: Установка точек для таймера 32
+    default: op
+  htime32.match:
+    description: Управление матчем для таймера 32
+    default: op
+  htime32.boat:
+    description: Управление лодками для таймера 32
+    default: op
+
+  htime33.*:
+    description: Все права для таймера 33
+    default: op
+    children:
+      htime33.pos: true
+      htime33.match: true
+      htime33.boat: true
+  htime33.pos:
+    description: Установка точек для таймера 33
+    default: op
+  htime33.match:
+    description: Управление матчем для таймера 33
+    default: op
+  htime33.boat:
+    description: Управление лодками для таймера 33
+    default: op
+
+  htime34.*:
+    description: Все права для таймера 34
+    default: op
+    children:
+      htime34.pos: true
+      htime34.match: true
+      htime34.boat: true
+  htime34.pos:
+    description: Установка точек для таймера 34
+    default: op
+  htime34.match:
+    description: Управление матчем для таймера 34
+    default: op
+  htime34.boat:
+    description: Управление лодками для таймера 34
+    default: op
+
+  htime35.*:
+    description: Все права для таймера 35
+    default: op
+    children:
+      htime35.pos: true
+      htime35.match: true
+      htime35.boat: true
+  htime35.pos:
+    description: Установка точек для таймера 35
+    default: op
+  htime35.match:
+    description: Управление матчем для таймера 35
+    default: op
+  htime35.boat:
+    description: Управление лодками для таймера 35
+    default: op
+
+  htime36.*:
+    description: Все права для таймера 36
+    default: op
+    children:
+      htime36.pos: true
+      htime36.match: true
+      htime36.boat: true
+  htime36.pos:
+    description: Установка точек для таймера 36
+    default: op
+  htime36.match:
+    description: Управление матчем для таймера 36
+    default: op
+  htime36.boat:
+    description: Управление лодками для таймера 36
+    default: op
+
+  htime37.*:
+    description: Все права для таймера 37
+    default: op
+    children:
+      htime37.pos: true
+      htime37.match: true
+      htime37.boat: true
+  htime37.pos:
+    description: Установка точек для таймера 37
+    default: op
+  htime37.match:
+    description: Управление матчем для таймера 37
+    default: op
+  htime37.boat:
+    description: Управление лодками для таймера 37
+    default: op
+
+  htime38.*:
+    description: Все права для таймера 38
+    default: op
+    children:
+      htime38.pos: true
+      htime38.match: true
+      htime38.boat: true
+  htime38.pos:
+    description: Установка точек для таймера 38
+    default: op
+  htime38.match:
+    description: Управление матчем для таймера 38
+    default: op
+  htime38.boat:
+    description: Управление лодками для таймера 38
+    default: op
+
+  htime39.*:
+    description: Все права для таймера 39
+    default: op
+    children:
+      htime39.pos: true
+      htime39.match: true
+      htime39.boat: true
+  htime39.pos:
+    description: Установка точек для таймера 39
+    default: op
+  htime39.match:
+    description: Управление матчем для таймера 39
+    default: op
+  htime39.boat:
+    description: Управление лодками для таймера 39
+    default: op
+
+  htime40.*:
+    description: Все права для таймера 40
+    default: op
+    children:
+      htime40.pos: true
+      htime40.match: true
+      htime40.boat: true
+  htime40.pos:
+    description: Установка точек для таймера 40
+    default: op
+  htime40.match:
+    description: Управление матчем для таймера 40
+    default: op
+  htime40.boat:
+    description: Управление лодками для таймера 40
+    default: op
+
+  htime41.*:
+    description: Все права для таймера 41
+    default: op
+    children:
+      htime41.pos: true
+      htime41.match: true
+      htime41.boat: true
+  htime41.pos:
+    description: Установка точек для таймера 41
+    default: op
+  htime41.match:
+    description: Управление матчем для таймера 41
+    default: op
+  htime41.boat:
+    description: Управление лодками для таймера 41
+    default: op
+
+  htime42.*:
+    description: Все права для таймера 42
+    default: op
+    children:
+      htime42.pos: true
+      htime42.match: true
+      htime42.boat: true
+  htime42.pos:
+    description: Установка точек для таймера 42
+    default: op
+  htime42.match:
+    description: Управление матчем для таймера 42
+    default: op
+  htime42.boat:
+    description: Управление лодками для таймера 42
+    default: op
+
+  htime43.*:
+    description: Все права для таймера 43
+    default: op
+    children:
+      htime43.pos: true
+      htime43.match: true
+      htime43.boat: true
+  htime43.pos:
+    description: Установка точек для таймера 43
+    default: op
+  htime43.match:
+    description: Управление матчем для таймера 43
+    default: op
+  htime43.boat:
+    description: Управление лодками для таймера 43
+    default: op
+
+  htime44.*:
+    description: Все права для таймера 44
+    default: op
+    children:
+      htime44.pos: true
+      htime44.match: true
+      htime44.boat: true
+  htime44.pos:
+    description: Установка точек для таймера 44
+    default: op
+  htime44.match:
+    description: Управление матчем для таймера 44
+    default: op
+  htime44.boat:
+    description: Управление лодками для таймера 44
+    default: op
+
+  htime45.*:
+    description: Все права для таймера 45
+    default: op
+    children:
+      htime45.pos: true
+      htime45.match: true
+      htime45.boat: true
+  htime45.pos:
+    description: Установка точек для таймера 45
+    default: op
+  htime45.match:
+    description: Управление матчем для таймера 45
+    default: op
+  htime45.boat:
+    description: Управление лодками для таймера 45
+    default: op
+
+  htime46.*:
+    description: Все права для таймера 46
+    default: op
+    children:
+      htime46.pos: true
+      htime46.match: true
+      htime46.boat: true
+  htime46.pos:
+    description: Установка точек для таймера 46
+    default: op
+  htime46.match:
+    description: Управление матчем для таймера 46
+    default: op
+  htime46.boat:
+    description: Управление лодками для таймера 46
+    default: op
+
+  htime47.*:
+    description: Все права для таймера 47
+    default: op
+    children:
+      htime47.pos: true
+      htime47.match: true
+      htime47.boat: true
+  htime47.pos:
+    description: Установка точек для таймера 47
+    default: op
+  htime47.match:
+    description: Управление матчем для таймера 47
+    default: op
+  htime47.boat:
+    description: Управление лодками для таймера 47
+    default: op
+
+  htime48.*:
+    description: Все права для таймера 48
+    default: op
+    children:
+      htime48.pos: true
+      htime48.match: true
+      htime48.boat: true
+  htime48.pos:
+    description: Установка точек для таймера 48
+    default: op
+  htime48.match:
+    description: Управление матчем для таймера 48
+    default: op
+  htime48.boat:
+    description: Управление лодками для таймера 48
+    default: op
+
+  htime49.*:
+    description: Все права для таймера 49
+    default: op
+    children:
+      htime49.pos: true
+      htime49.match: true
+      htime49.boat: true
+  htime49.pos:
+    description: Установка точек для таймера 49
+    default: op
+  htime49.match:
+    description: Управление матчем для таймера 49
+    default: op
+  htime49.boat:
+    description: Управление лодками для таймера 49
+    default: op
+
+  htime50.*:
+    description: Все права для таймера 50
+    default: op
+    children:
+      htime50.pos: true
+      htime50.match: true
+      htime50.boat: true
+  htime50.pos:
+    description: Установка точек для таймера 50
+    default: op
+  htime50.match:
+    description: Управление матчем для таймера 50
+    default: op
+  htime50.boat:
+    description: Управление лодками для таймера 50
+    default: op
