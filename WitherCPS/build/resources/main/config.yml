@@ -1,0 +1,160 @@
+settings:
+  idle-threshold: 0.20
+  minus-cps: 0
+  max-ping: 120
+  zero-cps:
+    min-clicks: 3
+    min-time: 0.05
+  network-use-colors: true
+  network-red-color: "&#c3a9c5"
+
+colors:
+  "4":
+    "&a": "0.5-59.9"
+    "&6": "60.0-100.0"
+    "&c": "100.1-9999999999.0"
+  "5":
+    "&a": "0.0-39.9"
+    "&6": "50.0-80.0"
+    "&c": "80.1-9999999999.0"
+  "6":
+    "&a": "0.0-34.9"
+    "&6": "40.0-60.0"
+    "&c": "60.1-9999999999.0"
+  "7-2147483646":
+    "&a": "0.0-19.9"
+    "&6": "20.0-40.0"
+    "&c": "40.1-9999999999.0"
+
+fast-colors:
+  "4-2147483646":
+    "&c": "0.0-0.03"
+
+modes:
+  "hockey":
+    prefix: "&bХоккей"
+    knockback: 3
+    roles:
+      "Полевой":
+        prefix: "&aПолевой"
+        attributes:
+          - "entity_interaction_range 1.1"
+        base-player-attributes:
+          scale:
+            - 1.3
+          entity_interaction_range:
+            - 3.0
+          attack_knockback:
+            - 0.0
+        speed: 0.37
+        effects: [ "night_vision", "water_breathing" ]
+      "Вратарь":
+        prefix: "&eВратарь"
+        attributes:
+          - "entity_interaction_range 2.2"
+        base-player-attributes:
+          scale:
+            - 1.5
+          entity_interaction_range:
+            - 3.0
+          attack_knockback:
+            - 0.0
+        speed: 0.37
+        effects: [ "night_vision", "water_breathing" ]
+
+messages:
+  prefix: "&#FFCC75[CPS]"
+  commands:
+    help:
+      header: |-
+        
+        &#FFCC75[CPS] &fПомощь по командам:
+      format: " &7- &f{command} &7- &f{description}"
+      commands:
+        cps: "Включает/выключает серверный мониторинг (Server-Thread)"
+        "cps Netty": "Включает/выключает сетевой мониторинг (Network-Thread)"
+        "cps all": "Включает/выключает оба режима мониторинга и режим слежки"
+        "cps mode": "Включает/выключает режим слежки Хоккей"
+        "cps mode off": "Выключает режим слежки"
+        "cps mute [игроки] [время]": "Отключает мониторинг для указанных игроков"
+        "cps unmute [игроки]": "Возобновляет мониторинг для указанных игроков"
+        "cps mutelist": "Показывает список отключённых игроков"
+        "cps personal [add|remove|list] [игроки]": "Управление персональным мониторингом"
+        "cps list": "Показывает список превышений CPS"
+        "cps reload": "Перезагружает конфигурацию плагина"
+        "cps help": "Показывает это сообщение"
+    errors:
+      no-permission: "&cВы не можете выполнить данную команду."
+      only-player: "&cДанную команду может выполнить только игрок."
+      incorrect-player: "&cИгрок \"{target}\" не найден или оффлайн."
+      off-monitoring: "&cСначала необходимо включить мониторинг."
+      use-tab: "&cНеверный аргумент. Используйте подсказки при помощи Tab."
+    monitoring:
+      success: "{prefix} {thread} мониторинг: {status}"
+      all:
+        enable: "{prefix} &aВключены оба режима: &fcps &7и &fNetty &7+ &fРежим Хоккей"
+        disable: "{prefix} &cВыключены оба режима: &fcps &7и &fNetty &7+ &fРежим слежки"
+      personal:
+        usage: "&cПравильное использование: /cps personal <add|remove|list> [игроки...]"
+        exit: "{prefix} Вы вернулись в глобальный мониторинг."
+        add:
+          usage: "&cПравильное использование: /cps personal add <игроки...>"
+          success: "{prefix} Игрок &6{target} &aдобавлен в персональный мониторинг."
+          already: "{prefix} Игрок &6{target} &eуже в списке персонального мониторинга."
+        remove:
+          usage: "&cПравильное использование: /cps personal remove <игроки...>"
+          success: "{prefix} Игрок &6{target} &cудалён из персонального мониторинга."
+          not: "{prefix} Игрок &6{target} &eне найден в списке персонального мониторинга."
+        list:
+          header: "\n{prefix} Список игроков в персональном мониторинге:"
+          format: "&7- &f{target}"
+          empty: "&7Список персонального мониторинга пуст."
+      placeholders:
+        status-enable: "&aвключён"
+        status-disable: "&cотключён"
+        thread-network: "Сетевой"
+        thread-server: "Серверный"
+        personal-extra: "\n&7Чтобы вернуться в глобальный: /cps personal"
+    mode:
+      usage: "&cПравильное использование: /cps mode <off | mode>"
+      success: "{prefix} Вы установили режим слежки: {mode}"
+      reset: "{prefix} Вы сбросили режим слежки."
+      not: "&cРежима слежки с таким названием не существует."
+    mute:
+      usage: "&cПравильное использование: /cps mute <players...> [time]"
+      success: "{prefix} Мониторинг &6{target} &#FFCC75остановлен&6{time}."
+    unmute:
+      usage: "&cПравильное использование: /cps unmute <players...>"
+      success: "{prefix} Мониторинг &6{target} &#FFCC75возобновлён."
+      not: "&cМониторинг \"{target}\" не отключён."
+    mutelist:
+      header: "\n{prefix} Список отключённых игроков:"
+      format: "&7- &c{target} &7{time}"
+      empty: "&7Список отключённых игроков пуст."
+    reload:
+      success: "&#FFCC75[WitherCPS] Конфигурация плагина успешно перезагружена!"
+    list: |-
+      
+      &#FF6A23П&#FF6C24р&#FF6E25е&#FE7026в&#FE7126ы&#FE7327ш&#FE7528е&#FD7729н&#FD792Aи&#FD7B2Bе &#FC7E2CC&#FC802DP&#FC822ES:
+       &f⚬   за &#FFA61D4 &fклик. - &#FFA61D100.00 CPS
+       &f⚬   за &#FFA61D5 &fклик. - &#FFA61D80.00 CPS
+       &f⚬   за &#FFA61D6 &fклик. - &#FFA61D60.00 CPS
+       &f⚬   за &#FFA61D7 &fклик. - &#FFA61D40.00 CPS
+
+  monitoring:
+    report:
+      prefixes:
+        network:
+          global: "&#FCFF00[CPS]"
+          personal: "&#FCFF00[P-CPS]"
+        server:
+          global: "&7[CPS]"
+          personal: "&7[P-CPS]"
+      format: "{prefix} {color}{target} - {total} за {time}s | {cps}/s"
+    attention:
+      item: "\n &c[!] &cНарушение в слоте: &#FFF28B[{slot}]"
+      gamemode: "\n &c[!] &cИгровой режим: &#FFF28BCreative"
+      effect: "\n &c[!] &cОбнаружены эффекты"
+      speed: "\n &c[!] &cСкорость: &#FFF28B{level}"
+      mspt: "\n &c[!] &cMSPT: &#FFF28B{mspt} MSPT"
+      ping: "\n &c[!] &cPing: &#FFF28B{ping} Ping"

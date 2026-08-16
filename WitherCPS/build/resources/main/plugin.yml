@@ -1,0 +1,86 @@
+name: WitherCPS
+prefix: WitherCPS
+version: '1.0'
+
+main: org.anonymous.withercps.WitherCPS
+api-version: '1.21.4'
+load: POSTWORLD
+
+authors:
+  - Sweetymel
+
+website: withermc.fun
+
+softdepend:
+  - Spark
+
+commands:
+  withercps:
+    permission: Koramikon.cps
+    aliases:
+      - cps
+
+permissions:
+  Koramikon.cps.admin:
+    description: "Полный доступ ко всем командам плагина"
+    default: false
+
+  Koramikon.cps:
+    description: "Доступ к /cps (server режим)"
+    default: false
+
+  Koramikon.cps.Netty:
+    description: "Доступ к /cps Netty (network режим)"
+    default: false
+
+  Koramikon.cps.mute:
+    description: "Доступ к /cps mute"
+    default: false
+
+  Koramikon.cps.modes:
+    description: "Доступ к /cps modes"
+    default: false
+
+  Koramikon.cps.reload:
+    description: "Доступ к /cps reload"
+    default: false
+
+  Koramikon.cps.mode:
+    description: "Доступ к /cps mode"
+    default: false
+
+  Koramikon.cps.unmute:
+    description: "Доступ к /cps unmute"
+    default: false
+
+  Koramikon.cps.mutelist:
+    description: "Доступ к /cps mutelist"
+    default: false
+
+  Koramikon.cps.personal:
+    description: "Доступ к /cps personal"
+    default: false
+
+  Koramikon.cps.personal.add:
+    description: "Доступ к /cps personal add"
+    default: false
+
+  Koramikon.cps.personal.remove:
+    description: "Доступ к /cps personal remove"
+    default: false
+
+  Koramikon.cps.personal.list:
+    description: "Доступ к /cps personal list"
+    default: false
+
+  Koramikon.cps.all:
+    description: "Доступ к /cps all (включает cps + Netty)"
+    default: false
+
+  Koramikon.cps.help:
+    description: "Доступ к /cps help"
+    default: false
+
+  Koramikon.cps.list:
+    description: "Доступ к /cps list"
+    default: false
