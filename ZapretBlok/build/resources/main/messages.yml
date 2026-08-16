@@ -1,0 +1,25 @@
+# Все тексты плагина с поддержкой HEX цветов
+# HEX формат: &#RRGGBB
+
+messages:
+  no_permission: "&#FF5555&l❌ У вас нет прав на выполнение этой команды!"
+  reload_success: "&#55FF55&l✅ Плагин успешно перезагружен!"
+  enabled: "&#55FF55&l✅ Защита включена! Запрещенные блоки снова нельзя ставить и ломать."
+  disabled: "&#FF5555&l⚠ Защита выключена! Теперь можно ставить и ломать любые блоки."
+  already_enabled: "&#FFAA55&l⚠ Защита уже включена!"
+  already_disabled: "&#FFAA55&l⚠ Защита уже выключена!"
+  cannot_place: "&#FF5555&l❌ Вы не можете ставить блок &f{block}&c!"
+  cannot_break: "&#FF5555&l❌ Вы не можете ломать блок &f{block}&c!"
+  blocked_info: "&#FFDB0C&l📊 Загружено блоков: &f{place_count} &eна установку, &f{break_count} &eна ломание"
+  protection_status: "&#FFDB0C&l🛡 Статус защиты: {status}"
+  status_on: "&#55FF55&lВКЛЮЧЕНА"
+  status_off: "&#FF5555&lВЫКЛЮЧЕНА"
+
+commands:
+  usage: "&#FF5555&l❌ Используйте: &f/zapret reload &7- перезагрузить плагин"
+  help: |-
+    &#FFDB0C&l=== ZapretBlok Commands ===
+    &e/zapret reload &7- Перезагрузить плагин
+    &e/zapret on &7- Включить защиту
+    &e/zapret off &7- Выключить защиту
+    &#FFDB0C&l=========================

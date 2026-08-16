@@ -1,0 +1,21 @@
+name: ZapretBlok
+version: 1.0.0
+main: ru.dev.mikikor.ZapretBlok
+author: Mikikor
+api-version: 1.20
+description: Плагин на запрет ломания и установки блоков
+
+commands:
+  zapret:
+    description: Главная команда плагина
+    usage: /<command> [reload|on|off]
+    permission: zapret.admin
+    aliases: [zb]
+
+permissions:
+  zapret.admin:
+    description: Доступ ко всем командам плагина
+    default: op
+  zapret.bypass:
+    description: Обход защиты (может ставить/ломать запрещенные блоки)
+    default: op
