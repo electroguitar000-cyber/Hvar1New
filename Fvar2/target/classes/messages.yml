@@ -1,0 +1,102 @@
+# Файл конфигурации всех сообщений плагина
+# Поддерживаются HEX цвета в формате &#RRGGBB и &0-9, &a-f, &l, &r и т.д.
+
+# Основные сообщения
+prefix: "&#FF0C0C&l[&#FF2727&lF&#FF4242&lᴏ&#FF5D5D&lᴏ&#FF7878&lᴛ&#FF9393&lʙ&#FFAEAE&lᴀ&#FFC9C9&lʟ&#FFE4E4&lʟ&#FFFFFF&l]"
+
+# Команды
+help:
+  header: "&#FFAA00&l≫≫≫ &#97FF0C&lF&#9EFF1D&lᴏ&#A6FF2F&lᴏ&#ADFF40&lᴛ&#B5FF51&lʙ&#BCFF63&lᴀ&#C4FF74&lʟ&#CBFF86&lʟ &#DAFFA8&lA&#E1FFBA&lᴜ&#E9FFCB&lᴏ&#F0FFDC&lV&#F8FFEE&lᴀ&#FFFFFF&lʀ &#FFAA00&l≪≪≪"
+  footer: "&#FFAA00&l≫≫≫ &#FF007A&lʙ&#FF1786&lʏ &#FF469E&lᴋ&#FF5DAA&lᴏ&#FF74B6&lʀ&#FF8BC3&lᴀ&#FFA2CF&lᴍ&#FFB9DB&lɪ&#FFD1E7&lᴋ&#FFE8F3&lᴏ&#FFFFFF&lɴ &7&#FFAA00&l≪≪≪"
+  commands:
+    - "&#FF0C0C&l/&#FF1313&lF&#FF1A1A&lᴠ&#FF2121&lᴀ&#FF2929&lʀ &#FF3737&lL &#FF4545&lᴘ&#FF4C4C&lᴏ&#FF5353&ls &#FF6262&l1 &#FF7070&l— &#FF7E7E&lт&#FF8686&lᴏ&#FF8D8D&lч&#FF9494&lᴋ&#FF9B9B&lᴀ &#FFA9A9&l1 &#FFB8B8&lл&#FFBFBF&lᴇ&#FFC6C6&lʙ&#FFCDCD&lы&#FFD4D4&lx &#FFE2E2&lʙ&#FFEAEA&lᴏ&#FFF1F1&lᴘ&#FFF8F8&lᴏ&#FFFFFF&lт"
+    - "&#FF0C0C&l/&#FF1313&lH&#FF1A1A&lᴠ&#FF2121&lᴀ&#FF2929&lʀ &#FF3737&lL &#FF4545&lᴘ&#FF4C4C&lᴏ&#FF5353&ls &#FF6262&l2 &#FF7070&l— &#FF7E7E&lт&#FF8686&lᴏ&#FF8D8D&lч&#FF9494&lᴋ&#FF9B9B&lᴀ &#FFA9A9&l2 &#FFB8B8&lл&#FFBFBF&lᴇ&#FFC6C6&lʙ&#FFCDCD&lы&#FFD4D4&lx &#FFE2E2&lʙ&#FFEAEA&lᴏ&#FFF1F1&lᴘ&#FFF8F8&lᴏ&#FFFFFF&lт"
+    - "&#FF0C0C&l/&#FF1313&lH&#FF1A1A&lᴠ&#FF2121&lᴀ&#FF2828&lʀ &#FF3636&lR &#FF4444&lᴘ&#FF4A4A&lᴏ&#FF5151&ls &#FF5F5F&l1 &#FF6D6D&l— &#FF7B7B&lт&#FF8282&lᴏ&#FF8989&lч&#FF9090&lᴋ&#FF9797&lᴀ &#FFA5A5&l1 &#FFB3B3&lп&#FFBABA&lᴘ&#FFC1C1&lᴀ&#FFC7C7&lʙ&#FFCECE&lы&#FFD5D5&lx &#FFE3E3&lʙ&#FFEAEA&lᴏ&#FFF1F1&lᴘ&#FFF8F8&lᴏ&#FFFFFF&lт"
+    - "&#FF0C0C&l/&#FF1313&lH&#FF1A1A&lᴠ&#FF2121&lᴀ&#FF2828&lʀ &#FF3636&lR &#FF4444&lᴘ&#FF4A4A&lᴏ&#FF5151&ls &#FF5F5F&l2 &#FF6D6D&l— &#FF7B7B&lт&#FF8282&lᴏ&#FF8989&lч&#FF9090&lᴋ&#FF9797&lᴀ &#FFA5A5&l2 &#FFB3B3&lп&#FFBABA&lᴘ&#FFC1C1&lᴀ&#FFC7C7&lʙ&#FFCECE&lы&#FFD5D5&lx &#FFE3E3&lʙ&#FFEAEA&lᴏ&#FFF1F1&lᴘ&#FFF8F8&lᴏ&#FFFFFF&lт"
+    - "&#FF0C0C&l/&#FF1010&lH&#FF1414&lᴠ&#FF1818&lᴀ&#FF1C1C&lʀ &#FF2525&lL &#FF2D2D&lᴅ&#FF3131&lᴇ&#FF3535&lʟ &#FF3D3D&l— &#FF4646&ly&#FF4A4A&lд&#FF4E4E&lᴀ&#FF5252&lл&#FF5656&lи&#FF5A5A&lт&#FF5E5E&lь &#FF6767&lл&#FF6B6B&lᴇ&#FF6F6F&lʙ&#FF7373&lы&#FF7777&lᴇ &#FF7F7F&lʙ&#FF8383&lᴏ&#FF8888&lᴘ&#FF8C8C&lᴏ&#FF9090&lт&#FF9494&lᴀ &#FF9C9C&l+ &#FFA4A4&lᴏ&#FFA9A9&lч&#FFADAD&lи&#FFB1B1&lᴄ&#FFB5B5&lт&#FFB9B9&lи&#FFBDBD&lт&#FFC1C1&lь &#FFC9C9&lʙ&#FFCECE&lᴄ&#FFD2D2&lю &#FFDADA&lᴄ&#FFDEDE&lт&#FFE2E2&lᴀ&#FFE6E6&lт&#FFEAEA&lи&#FFEFEF&lᴄ&#FFF3F3&lт&#FFF7F7&lи&#FFFBFB&lᴋ&#FFFFFF&lу"
+    - "&#FF0C0C&l/&#FF1010&lF&#FF1414&lᴠ&#FF1818&lᴀ&#FF1C1C&lʀ &#FF2424&lR &#FF2C2C&lᴅ&#FF3030&lᴇ&#FF3535&lʟ &#FF3D3D&l— &#FF4545&ly&#FF4949&lд&#FF4D4D&lᴀ&#FF5151&lл&#FF5555&lи&#FF5959&lт&#FF5D5D&lь &#FF6565&lп&#FF6969&lᴘ&#FF6D6D&lᴀ&#FF7171&lʙ&#FF7575&lы&#FF7979&lᴇ &#FF8181&lʙ&#FF8686&lᴏ&#FF8A8A&lᴘ&#FF8E8E&lᴏ&#FF9292&lт&#FF9696&lᴀ &#FF9E9E&l+ &#FFA6A6&lᴏ&#FFAAAA&lч&#FFAEAE&lи&#FFB2B2&lᴄ&#FFB6B6&lт&#FFBABA&lи&#FFBEBE&lт&#FFC2C2&lь &#FFCACA&lʙ&#FFCECE&lᴄ&#FFD2D2&lю &#FFDBDB&lᴄ&#FFDFDF&lт&#FFE3E3&lᴀ&#FFE7E7&lт&#FFEBEB&lи&#FFEFEF&lᴄ&#FFF3F3&lт&#FFF7F7&lи&#FFFBFB&lᴋ&#FFFFFF&lу"
+    - "&#FF0C0C&l/&#FF1515&lF&#FF1F1F&lᴠ&#FF2828&lᴀ&#FF3131&lʀ &#FF4444&ls&#FF4D4D&lᴛ&#FF5757&lᴀ&#FF6060&lᴛ&#FF6969&lᴜ&#FF7373&ls &#FF8686&l— &#FF9898&lᴄ&#FFA2A2&lт&#FFABAB&lᴀ&#FFB4B4&lт&#FFBEBE&ly&#FFC7C7&lᴄ &#FFDADA&lʙ&#FFE3E3&lᴏ&#FFECEC&lᴘ&#FFF6F6&lᴏ&#FFFFFF&lт"
+    - "&#FF0C0C&l/&#FF1414&lF&#FF1C1C&lᴠ&#FF2424&lᴀ&#FF2C2C&lʀ &#FF3D3D&lᴏ&#FF4545&lɴ &#FF5555&l— &#FF6565&lʙ&#FF6D6D&lᴋ&#FF7575&lл&#FF7D7D&lю&#FF8686&lч&#FF8E8E&lи&#FF9696&lт&#FF9E9E&lь &#FFAEAE&lд&#FFB6B6&lᴇ&#FFBEBE&lт&#FFC6C6&lᴇ&#FFCECE&lᴋ&#FFD7D7&lт &#FFE7E7&lг&#FFEFEF&lᴏ&#FFF7F7&lл&#FFFFFF&lᴀ"
+    - "&#FF0C0C&l/&#FF1414&lF&#FF1B1B&lᴠ&#FF2323&lᴀ&#FF2A2A&lʀ &#FF3A3A&lᴏ&#FF4141&lғ&#FF4949&lғ &#FF5858&l— &#FF6767&lʙ&#FF6F6F&lы&#FF7676&lᴋ&#FF7E7E&lл&#FF8686&lю&#FF8D8D&lч&#FF9595&lи&#FF9C9C&lт&#FFA4A4&lь &#FFB3B3&lд&#FFBBBB&lᴇ&#FFC2C2&lт&#FFCACA&lᴇ&#FFD1D1&lᴋ&#FFD9D9&lт &#FFE8E8&lг&#FFF0F0&lᴏ&#FFF7F7&lл&#FFFFFF&lᴀ"
+    - "&#FF0C0C&l/&#FF1515&lF&#FF1D1D&lᴠ&#FF2626&lᴀ&#FF2F2F&lʀ &#FF4040&ls&#FF4949&lᴛ&#FF5151&lᴀ&#FF5A5A&lᴛ&#FF6363&lᴀ &#FF7474&lʟ&#FF7D7D&lɪ&#FF8686&ls&#FF8E8E&lᴛ &#FFA0A0&l— &#FFB1B1&lᴄ&#FFBABA&lт&#FFC2C2&lᴀ&#FFCBCB&lт&#FFD4D4&lи&#FFDCDC&lᴄ&#FFE5E5&lт&#FFEEEE&lи&#FFF6F6&lᴋ&#FFFFFF&lᴀ"
+    - "&#FF0C0C&l/&#FF1111&lF&#FF1616&lᴠ&#FF1B1B&lᴀ&#FF1F1F&lʀ &#FF2929&ls&#FF2E2E&lᴛ&#FF3333&lᴀ&#FF3838&lᴛ&#FF3D3D&lᴀ &#FF4646&lᴀ&#FF4B4B&lᴅ&#FF5050&lᴅ &#FF5A5A&lL&#FF5F5F&l/&#FF6363&lR &#FF6D6D&lʜ&#FF7272&lи&#FF7777&lᴋ&#FF7C7C&l1 &#FF8686&lʜ&#FF8A8A&lи&#FF8F8F&lᴋ&#FF9494&l2&#FF9999&l.&#FF9E9E&l.&#FFA3A3&l. &#FFACAC&l— &#FFB6B6&lд&#FFBBBB&lᴏ&#FFC0C0&lб&#FFC5C5&lᴀ&#FFCACA&lʙ&#FFCECE&lи&#FFD3D3&lт&#FFD8D8&lь &#FFE2E2&lи&#FFE7E7&lг&#FFECEC&lᴘ&#FFF0F0&lᴏ&#FFF5F5&lᴋ&#FFFAFA&lᴏ&#FFFFFF&lʙ"
+    - "&#FF0C0C&l/&#FF1212&lF&#FF1919&lᴠ&#FF1F1F&lᴀ&#FF2626&lʀ &#FF3232&ls&#FF3939&lᴛ&#FF3F3F&lᴀ&#FF4646&lᴛ&#FF4C4C&lᴀ &#FF5959&lᴅ&#FF5F5F&lᴇ&#FF6666&lʟ &#FF7272&lʜ&#FF7979&lи&#FF7F7F&lᴋ &#FF8C8C&lL&#FF9292&l/&#FF9999&lR &#FFA5A5&l— &#FFB2B2&lу&#FFB9B9&lб&#FFBFBF&lᴘ&#FFC5C5&lᴀ&#FFCCCC&lт&#FFD2D2&lь &#FFDFDF&lи&#FFE5E5&lг&#FFECEC&lᴘ&#FFF2F2&lᴏ&#FFF9F9&lᴋ&#FFFFFF&lᴀ"
+    - "&#FF0C0C&l/&#FF1212&lF&#FF1818&lᴠ&#FF1E1E&lᴀ&#FF2424&lʀ &#FF3030&ls&#FF3535&lᴛ&#FF3B3B&lᴀ&#FF4141&lᴛ&#FF4747&lᴀ &#FF5353&lᴄ&#FF5959&lᴀ&#FF5F5F&lɴ&#FF6565&lᴇ&#FF6B6B&lʟ &#FF7777&l— &#FF8383&lᴏ&#FF8888&lт&#FF8E8E&lм&#FF9494&lᴇ&#FF9A9A&lʜ&#FFA0A0&lи&#FFA6A6&lт&#FFACAC&lь &#FFB8B8&lп&#FFBEBE&lᴏ&#FFC4C4&lᴄ&#FFCACA&lл&#FFD0D0&lᴇ&#FFD6D6&lд&#FFDBDB&lʜ&#FFE1E1&lи&#FFE7E7&lй &#FFF3F3&lг&#FFF9F9&lᴏ&#FFFFFF&lл"
+    - "&#FF0C0C&l/&#FF1111&lF&#FF1616&lᴠ&#FF1B1B&lᴀ&#FF2020&lʀ &#FF2A2A&ls&#FF2F2F&lᴛ&#FF3535&lᴀ&#FF3A3A&lᴛ&#FF3F3F&lᴀ &#FF4949&lʟ&#FF4E4E&l/&#FF5353&lʀ &#FF5D5D&lɢ&#FF6262&lʀ&#FF6767&lᴇ&#FF6C6C&lᴇ&#FF7171&lɴ &#FF7B7B&l[&#FF8080&lʜ&#FF8686&lи&#FF8B8B&lᴋ&#FF9090&l] &#FF9A9A&l— &#FFA4A4&lᴄ&#FFA9A9&lд&#FFAEAE&lᴇ&#FFB3B3&lл&#FFB8B8&lᴀ&#FFBDBD&lт&#FFC2C2&lь &#FFCCCC&lʜ&#FFD1D1&lи&#FFD7D7&lᴋ &#FFE1E1&lз&#FFE6E6&lᴇ&#FFEBEB&lл&#FFF0F0&lё&#FFF5F5&lʜ&#FFFAFA&lы&#FFFFFF&lм"
+    - "&#FF0C0C&l/&#FF1111&lF&#FF1717&lᴠ&#FF1C1C&lᴀ&#FF2121&lʀ &#FF2C2C&ls&#FF3131&lᴛ&#FF3636&lᴀ&#FF3C3C&lᴛ&#FF4141&lᴀ &#FF4B4B&lʟ&#FF5151&l/&#FF5656&lʀ &#FF6161&lʀ&#FF6666&lᴇ&#FF6B6B&lᴅ &#FF7676&l[&#FF7B7B&lʜ&#FF8080&lи&#FF8686&lᴋ&#FF8B8B&l] &#FF9595&l— &#FFA0A0&lᴄ&#FFA5A5&lд&#FFAAAA&lᴇ&#FFB0B0&lл&#FFB5B5&lᴀ&#FFBABA&lт&#FFC0C0&lь &#FFCACA&lʜ&#FFCFCF&lи&#FFD5D5&lᴋ &#FFDFDF&lᴋ&#FFE5E5&lᴘ&#FFEAEA&lᴀ&#FFEFEF&lᴄ&#FFF4F4&lʜ&#FFFAFA&lы&#FFFFFF&lм"
+    - "&#FF0C0C&l/&#FF1313&lF&#FF1B1B&lᴄ&#FF2222&lʟ&#FF2929&lɪ&#FF3131&lᴄ&#FF3838&lᴋ &#FF4747&l— &#FF5656&lэ&#FF5D5D&lт&#FF6464&lᴏ &#FF7373&lʙ&#FF7A7A&lᴀ&#FF8282&lм &#FF9191&lʜ&#FF9898&lᴇ &#FFA7A7&lп&#FFAEAE&lᴘ&#FFB5B5&lи&#FFBDBD&lг&#FFC4C4&lᴏ&#FFCBCB&lд&#FFD3D3&lи&#FFDADA&lт&#FFE2E2&lᴄ&#FFE9E9&lя&#FFF0F0&l)&#FFF8F8&l)&#FFFFFF&l)"
+    - "&#FF0C0C&l/&#FF1313&lF&#FF1A1A&lᴠ&#FF2121&lᴀ&#FF2929&lʀ &#FF3737&lʀ&#FF3E3E&lᴇ&#FF4545&lʟ&#FF4C4C&lᴏ&#FF5353&lᴀ&#FF5B5B&lᴅ &#FF6969&l— &#FF7777&lп&#FF7E7E&lᴇ&#FF8686&lᴘ&#FF8D8D&lᴇ&#FF9494&lз&#FF9B9B&lᴀ&#FFA2A2&lг&#FFA9A9&lᴘ&#FFB0B0&lу&#FFB8B8&lз&#FFBFBF&lи&#FFC6C6&lт&#FFCDCD&lь &#FFDBDB&lп&#FFE2E2&lл&#FFEAEA&lᴀ&#FFF1F1&lг&#FFF8F8&lи&#FFFFFF&lʜ"
+
+reload:
+  success: "&#55FF55&lПлᴀгиʜ уᴄпᴇшʜᴏ пᴇᴘᴇзᴀгᴘужᴇʜ!"
+  error: "&#FF5555&lOшибᴋᴀ пᴘи пᴇᴘᴇзᴀгᴘузᴋᴇ: {error}"
+
+status:
+  header: "&#FFAA00&l≫≫≫ &#FF850C&lᴄ&#FF9D3D&lт&#FFB66D&lᴀ&#FFCE9E&lт&#FFE7CE&lу&#FFFFFF&lᴄ &#FFAA00&l≪≪≪"
+  left_gates: "&#FF0C0C&lЛ&#FF2020&lᴇ&#FF3535&lʙ&#FF4949&lы&#FF5D5D&lᴇ &#FF8686&lʙ&#FF9A9A&lᴏ&#FFAEAE&lᴘ&#FFC2C2&lᴏ&#FFD7D7&lт&#FFEBEB&lᴀ&#FFFFFF&l: {status}"
+  right_gates: "&#FF0C0C&lП&#FF1F1F&lᴘ&#FF3131&lᴀ&#FF4444&lʙ&#FF5757&lы&#FF6969&lᴇ &#FF8F8F&lʙ&#FFA2A2&lᴏ&#FFB4B4&lᴘ&#FFC7C7&lᴏ&#FFDADA&lт&#FFECEC&lᴀ&#FFFFFF&l: {status}"
+  goal_detect: "&#FF0C8A&lД&#FF2295&lᴇ&#FF389F&lт&#FF4EAA&lᴇ&#FF64B5&lᴋ&#FF7ABF&lт &#FFA7D4&lг&#FFBDDF&lᴏ&#FFD3EA&lл&#FFE9F4&lᴀ&#FFFFFF&l: {status}"
+  ready: "&#0CFF50&lг&#3DFF73&lᴏ&#6DFF96&lт&#9EFFB9&lᴏ&#CEFFDC&lʙ&#FFFFFF&lы"
+  not_ready: "&#FF0C0C&lн&#FF2A2A&lе &#FF6767&lг&#FF8686&lо&#FFA4A4&lт&#FFC2C2&lо&#FFE1E1&lв&#FFFFFF&lы"
+  enabled: "&#0CFF50&lʙ&#35FF6D&lᴋ&#5DFF8A&lл&#86FFA8&lю&#AEFFC5&lч&#D7FFE2&lё&#FFFFFF&lʜ"
+  disabled: "&#FF0C0C&lʙ&#FF2F2F&lы&#FF5151&lᴋ&#FF7474&lл&#FF9797&lю&#FFBABA&lч&#FFDCDC&lᴇ&#FFFFFF&lʜ"
+
+gates:
+  point_set: "&#0CFF50&lT&#0CFF50&lᴏ&#0CFF50&lч&#0CFF50&lᴋ&#0CFF50&lᴀ {num} &#0CFF50&lд&#0CFF50&lл&#0CFF50&lя &#0CFF50&lʙ&#0CFF50&lᴏ&#0CFF50&lᴘ&#0CFF50&lᴏ&#0CFF50&lт {side} &#0CFF50&lу&#0CFF50&lᴄ&#0CFF50&lт&#0CFF50&lᴀ&#0CFF50&lʜ&#0CFF50&lᴏ&#0CFF50&lʙ&#0CFF50&lл&#0CFF50&lᴇ&#0CFF50&lʜ&#0CFF50&lᴀ&#0CFF50&l!"
+  gates_ready: "&#0CFF50&lB&#0CFF50&lᴏ&#0CFF50&lᴘ&#0CFF50&lᴏ&#0CFF50&lт&#0CFF50&lᴀ {side} &#0CFF50&lг&#0CFF50&lᴏ&#0CFF50&lт&#0CFF50&lᴏ&#0CFF50&lʙ&#0CFF50&lы&#0CFF50&l!"
+  gates_deleted: "&#FF0C0C&lB&#FF0C0C&lᴏ&#FF0C0C&lᴘ&#FF0C0C&lᴏ&#FF0C0C&lт&#FF0C0C&lᴀ {side} &#FF0C0C&lудᴀлᴇʜы! ВСЯ статистика очищена."
+  gates_enabled: "&#0CFF50&lВорота включены — детект гола активен!"
+  gates_disabled: "&#FF0C0C&lВорота выключены — детект гола отключён!"
+  only_1_or_2: "&#FF5555&lTᴏльᴋᴏ 1 и 2"
+  need_pos_or_del: "&#FF5555&l/Hᴠᴀʀ {side} ᴘᴏs 1/2 или ᴅᴇʟ"
+
+stata:
+  commands_hint: "&#B5B5B5&lKᴏмᴀʜды: ʟɪsᴛ, ᴀᴅᴅ L/R ʜиᴋ1 ʜиᴋ2..., ᴅᴇʟ ʜиᴋ L/R, ᴄᴀɴᴇʟ, +ɢᴏʟ, -ɢᴏʟ, +ᴘᴀs, -ᴘᴀs, ʟ/ʀ ɢʀᴇᴇɴ/ʀᴇᴅ [ʜиᴋ]"
+  added_to_team: "&#55FF55&lДобавлено в команду {side}: &e{count}"
+  not_found_players: "&#FFAA00&lHᴇ ʜᴀйдᴇʜᴏ: &#55FF55&l{count}"
+  player_not_found: "&#55FF55&l{player} &#FF5555&l— игᴘᴏᴋ ʜиᴋᴏгдᴀ ʜᴇ был ʜᴀ ᴄᴇᴘʙᴇᴘᴇ"
+  player_color_changed: "&#55FF55&lИгᴘᴏᴋ &#B5B5B5&l{player} &#55FF55&lтеперь {color} в команде {side}"
+  color_green: "зᴇлёʜый"
+  color_red: "ᴋᴘᴀᴄʜый"
+  goal_canceled: "&#FF5555&lПᴏᴄлᴇдʜий гᴏл ᴏтмᴇʜёʜ!"
+  team_name_changed: "&#55FF55&lKᴏмᴀʜдᴀ {side} тᴇпᴇᴘь: &e{name}"
+  player_added: "&#55FF55&l{player} дᴏбᴀʙлᴇʜ ʙ &e{team}"
+  player_removed: "&#FF5555&l{player} удᴀлёʜ из &e{team}"
+  player_already_in_team: "&#FF5555&lИгᴘᴏᴋ ʏжᴇ ʙ ᴋᴏмᴀʜдᴇ!"
+  player_not_in_team: "&#FF5555&lИгᴘᴏᴋ ʜᴇ ʜᴀйдᴇʜ или ʜᴇ ʙ ᴋᴏмᴀʜдᴇ!"
+  need_side: "&#FF5555&lУᴋᴀжи L или R!"
+  need_nick: "&#FF5555&lУᴋᴀжи ʜиᴋ!"
+  stat_changed_add: "&#55FF55&l+{type} для &e{player}"
+  stat_changed_remove: "&#FF5555&l-{type} у &e{player}"
+  stat_type_goal: "гᴏл"
+  stat_type_assist: "пᴀᴄ"
+
+stats:
+  header: "&#2036FF&l-&#273DFE&l-&#2D43FE&l- &#3B51FD&lC&#4158FC&lт&#485EFC&lᴀ&#4E65FB&lт&#556CFB&lи&#5C72FA&lᴄ&#6279F9&lт&#6980F9&lи&#7087F8&lᴋ&#768DF8&lᴀ &#849BF7&lф&#8AA2F6&lу&#91A8F5&lт&#98AFF5&lб&#9EB6F4&lᴏ&#A5BCF4&lл&#ABC3F3&lᴀ &#B9D1F2&l-&#BFD7F2&l-&#C6DEF1&l-"
+  no_players: "&#B5B5B5&l  Hᴇт игᴘᴏᴋᴏʙ"
+  player_line: "&l {color}{player} &#55FF55{goals}&f+&e{assists}"
+  separator: "&#B5B5B5&l----------------------------------------"
+
+goal:
+  title_scored: "&#55FF55&lBы зᴀбили гᴏл!"
+  title_conceded: "&#FF5555&lBы пᴘᴏпуᴄтили гᴏл!"
+  subtitle: ""
+  message: "&#FF0C0C&l[&#FF2727&lF&#FF4242&lᴏ&#FF5D5D&lᴏ&#FF7878&lᴛ&#FF9393&lʙ&#FFAEAE&lᴀ&#FFC9C9&lʟ&#FFE4E4&lʟ&#FFFFFF&l] &#0CFF50&lГOЛ!!!"
+  author: "&#0CFF50&lAʙтᴏᴘ гᴏлᴀ: &#00FFB9&l{scorer}&#B5B5B5&l, &#D0FF00&lᴀʙтᴏᴘ пᴀᴄᴀ: {assist}"
+  assist_default: "&#B5B5B5&l-"
+  assist_format: "&#D0FF00&l{player}&r"
+
+cps:
+  enabled: "&#0CFF50&lCPS-ᴄᴏᴏбщᴇʜия ʙᴋлючᴇʜы"
+  disabled: "&#FF5555&lCPS-ᴄᴏᴏбщᴇʜия ᴏтᴋлючᴇʜы"
+  message: "&eCPS: &7{player} &8— &7{clicks} &8за &7{time} &8| &7{cps} CPS/s &8[&b{team}&8]"
+
+errors:
+  only_players: "&#FF5555&lTᴏльᴋᴏ игᴘᴏᴋи!"
+  only_op: "&#FF5555&lTᴏльᴋᴏ для OP!"
+  unknown_command: "&#B5B5B5&lHᴇизʙᴇᴄтʜᴀя ᴋᴏмᴀʜдᴀ! /Fᴠᴀʀ ʜᴇʟᴘ"
+  need_help: "&#B5B5B5&l/Fᴠᴀʀ ʜᴇʟᴘ"
+  player_not_found: "&#FF5555&lИгᴘᴏᴋ ʜᴇ ʜᴀйдᴇʜ!"
+  need_side_lr: "&#FF5555&lУᴋᴀжи L или R!"
+  need_nick: "&#FF5555&lУᴋᴀжи ʜиᴋ!"
+  invalid_command: "&#FF5555&lHᴇʙᴇᴘʜᴀя ᴋᴏмᴀʜдᴀ!"

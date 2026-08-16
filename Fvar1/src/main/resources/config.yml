@@ -1,0 +1,24 @@
+# Настройки плагина
+gates-enabled: true
+gate-delay-ticks: 8  # Задержка перед голом (в тиках, 1 тик = 0.05 сек)
+
+# Ворота
+gates:
+  left:
+    pos1: null
+    pos2: null
+  right:
+    pos1: null
+    pos2: null
+
+# Команды и статистика
+team-names:
+  L: "Левая команда"
+  R: "Правая команда"
+
+teams:
+  L: []
+  R: []
+
+stats: {}
+colors: {}

@@ -1,0 +1,23 @@
+# Настройки плагина
+gates-enabled: true
+
+# Ворота
+gates:
+  left:
+    pos1: null
+    pos2: null
+  right:
+    pos1: null
+    pos2: null
+
+# Команды и статистика
+team-names:
+  L: "Левая команда"
+  R: "Правая команда"
+
+teams:
+  L: []
+  R: []
+
+stats: {}
+colors: {}

@@ -1,0 +1,28 @@
+name: Fvar1
+main: ru.example.autovar.AutoVarHockey
+version: 1.0
+api-version: 1.21
+author: Koramikon
+description: Fvar1
+
+commands:
+  Fvar1:
+    description: Основная команда хоккея Fvar1
+    usage: /Fvar1 help
+    aliases: [Fv1, Fvar1]
+    permission: fvar1.use
+    permission-message: §cУ вас нет права использовать эту команду!
+  Fclick1:
+    description: Вкл/выкл CPS-сообщения
+    usage: /Fclick1
+    aliases: [fc1]
+    permission: fvar1.use
+    permission-message: §cУ вас нет права использовать эту команду!
+
+permissions:
+  fvar1.use:
+    description: Доступ к командам Fvar1 и fclick1
+    default: op
+  fvar1.reload:
+    description: Доступ к перезагрузке fvar1
+    default: op
